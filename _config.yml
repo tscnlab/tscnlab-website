@@ -1,7 +1,8 @@
 title: Translational Sensory and Circadian Neuroscience Unit
 description: Research group based in Tübingen, Munich and Singapore.
-url: ""
-baseurl: ""
+url: "https://tscnlab.github.io"
+baseurl: "/tscnlab-website"
+
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title/
 
