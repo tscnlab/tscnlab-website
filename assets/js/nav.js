@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const mobileQuery = window.matchMedia("(max-width: 700px)");
-  const dropdowns = document.querySelectorAll(".nav-item-dropdown");
+  const dropdowns = [...document.querySelectorAll(".nav-item-dropdown")];
 
   dropdowns.forEach((dropdown) => {
     const trigger = dropdown.querySelector(".nav-dropdown-trigger");
@@ -10,18 +10,13 @@ document.addEventListener("DOMContentLoaded", () => {
     trigger.addEventListener("click", (event) => {
       if (!mobileQuery.matches) return;
 
-      const isOpen = dropdown.classList.contains("is-open");
-
-      if (!isOpen) {
+      if (!dropdown.classList.contains("is-open")) {
         event.preventDefault();
+        event.stopPropagation();
 
         dropdowns.forEach((item) => {
-          if (item !== dropdown) {
-            item.classList.remove("is-open");
-          }
+          item.classList.toggle("is-open", item === dropdown);
         });
-
-        dropdown.classList.add("is-open");
       }
     });
   });

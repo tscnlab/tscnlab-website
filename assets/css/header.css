@@ -284,3 +284,21 @@
     visibility: visible;
   }
 }
+/* Mobile dropdown state is controlled by nav.js */
+@media (max-width: 700px) {
+  .nav-item-dropdown .nav-dropdown,
+  .nav-item-dropdown:hover .nav-dropdown,
+  .nav-item-dropdown:focus-within .nav-dropdown {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .nav-item-dropdown.is-open .nav-dropdown,
+  .nav-item-dropdown.is-open:hover .nav-dropdown,
+  .nav-item-dropdown.is-open:focus-within .nav-dropdown {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+  }
+}
