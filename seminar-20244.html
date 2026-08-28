@@ -1,0 +1,50 @@
+---
+layout: default
+title: Current Topics in Sleep & Circadian Health
+permalink: /seminar-20244/
+page_css: /assets/css/resources.css
+---
+
+{% assign seminar = site.data.resources.seminar_2024 %}
+
+<main class="resource-page seminar-archive-page">
+
+  <div class="seminar-archive-grid">
+
+    <div class="seminar-poster">
+      {% if seminar.image %}
+        <img
+          src="{{ seminar.image | relative_url }}"
+          alt="{{ seminar.title }} — {{ seminar.subtitle }}"
+        >
+      {% endif %}
+    </div>
+
+    <div class="seminar-archive-content">
+
+      <header class="resource-heading">
+        <p class="resource-eyebrow">Seminar series</p>
+        <h1>{{ seminar.title }}</h1>
+        <p class="resource-subtitle">{{ seminar.subtitle }}</p>
+      </header>
+
+      <p class="seminar-description">
+        {{ seminar.description }}
+      </p>
+
+      {% if seminar.register_url %}
+        <a
+          class="resource-button"
+          href="{{ seminar.register_url }}"
+          target="_blank"
+          rel="noopener"
+        >
+          Register
+        </a>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+</main>

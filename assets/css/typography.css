@@ -1,0 +1,231 @@
+/* ==========================================================
+   Global typography system
+   Loaded after page-specific styles so equivalent content
+   has consistent sizing across the site.
+   ========================================================== */
+
+:root {
+  --font-body: "Roboto Condensed", Arial, sans-serif;
+  --font-display: Georgia, "Times New Roman", serif;
+
+  --text-body: 17px;
+  --text-lead: 18px;
+  --text-card: 16px;
+  --text-small: 15px;
+  --text-meta: 14px;
+
+  --line-body: 1.7;
+  --line-card: 1.6;
+  --line-compact: 1.5;
+
+  --heading-page: clamp(3rem, 4.3vw, 4.8rem);
+  --heading-section: clamp(2rem, 2.7vw, 2.8rem);
+  --heading-card: 1.7rem;
+}
+
+/* ---------- Base ---------- */
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--line-body);
+}
+
+/* ---------- Main page titles ---------- */
+
+.team-page > h1,
+.alumni-page > h1,
+.research-page > h1,
+.research-areas-page > h1,
+.collaborations-title h1,
+.equipment-support-page h1,
+.mission-header h1,
+.contact-intro h1,
+.news-article-header h1,
+.opportunities-header h1,
+.opportunities-main-title,
+.outreach-header h1,
+.podcast-intro-copy h1,
+.resource-heading h1,
+.resource-heading--compact h1,
+.software-header h1 {
+  font-family: var(--font-display);
+  font-size: var(--heading-page);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+/* News article titles can be slightly narrower without looking smaller. */
+.article h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 4vw, 4.5rem);
+  line-height: 1.08;
+}
+
+/* ---------- Long-form / primary reading text ---------- */
+
+.prose,
+.news-article-content,
+.mission-content,
+.research-page-content,
+.alumni-content,
+.resource-page {
+  font-size: var(--text-body);
+  line-height: var(--line-body);
+}
+
+/* ---------- Introductory / lead copy ---------- */
+
+.contact-lead,
+.outreach-header p,
+.resource-heading > p:not(.resource-eyebrow):not(.resource-subtitle),
+.seminar-intro-copy p,
+.seminar-description,
+.opportunities-header > p:not(.opportunities-label) {
+  font-size: var(--text-lead);
+  line-height: var(--line-body);
+}
+
+/* ---------- Standard card / descriptive copy ---------- */
+
+.member-info p,
+.member-grid--text .member-info p,
+.research-area-card p,
+.research-detail-card > p,
+.equipment-content p,
+.collaboration-text p,
+.outreach-card-copy > p:not(.outreach-type),
+.podcast-description,
+.podcast-bottom p:not(.podcast-small-label),
+.project-item p,
+.open-projects-intro p,
+.open-projects-intro li,
+.classic-project-list li,
+.external-funding-copy p,
+.external-funding-copy li,
+.application-block p,
+.application-block li,
+.funding-resources > p,
+.contact-row,
+.location-address p,
+.talk-card-body p {
+  font-size: var(--text-card);
+  line-height: var(--line-card);
+}
+
+/* ---------- Homepage news cards ---------- */
+
+.news-date {
+  font-size: var(--text-meta);
+}
+
+.news-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.news-excerpt {
+  font-size: var(--text-card);
+  line-height: var(--line-card);
+}
+
+.read-more {
+  font-size: var(--text-small);
+}
+
+/* ---------- Team ---------- */
+
+.member-info h3,
+.member-grid--text .member-info h3 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+/* ---------- Research-area cards ---------- */
+
+.research-area-card h2,
+.research-area-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+/* ---------- News listing ---------- */
+
+.news-list-excerpt {
+  font-size: var(--text-card);
+  line-height: var(--line-card);
+}
+
+.news-list-more,
+.news-article-author {
+  font-size: var(--text-small);
+}
+
+/* ---------- Outreach ---------- */
+
+.outreach-card-copy > p:not(.outreach-type) {
+  font-size: var(--text-card);
+}
+
+/* ---------- Podcast ---------- */
+
+.podcast-card h4 {
+  font-size: var(--text-card);
+  line-height: 1.5;
+}
+
+.podcast-bottom p {
+  font-size: var(--text-body);
+  line-height: var(--line-body);
+}
+
+/* ---------- Opportunities ---------- */
+
+.project-item h3 {
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.project-item p {
+  font-size: var(--text-card);
+  line-height: var(--line-card);
+}
+
+/* ---------- Resources ---------- */
+
+.speaker-date {
+  font-size: var(--text-card);
+}
+
+.speaker-person,
+.talk-card-body h2 {
+  font-size: var(--text-body);
+}
+
+/* ---------- Software ---------- */
+
+.software-project-copy > p:not(.software-label) {
+  font-size: var(--text-body);
+  line-height: var(--line-body);
+}
+
+/* ---------- Footer ---------- */
+
+.footer-column p {
+  font-size: var(--text-card);
+  line-height: var(--line-body);
+}
+
+.footer-bottom {
+  font-size: var(--text-small);
+}
+
+/* ---------- Deliberately small UI / metadata ---------- */
+
+/*
+  Breadcrumbs, dates, labels, category markers and dropdown helper text
+  intentionally remain smaller than reading copy.
+*/

@@ -1,0 +1,16 @@
+<article class="member-card{% unless member.image %} member-card--text-only{% endunless %}">
+  {% if member.image %}
+    <div class="member-image-wrap">
+      <img
+        class="member-image"
+        src="{{ member.image | relative_url }}"
+        alt="{{ member.name }}"
+      >
+    </div>
+  {% endif %}
+
+  <div class="member-info">
+    <h3>{{ member.name }}</h3>
+    <p>{{ member.role }}</p>
+  </div>
+</article>

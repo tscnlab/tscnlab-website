@@ -1,0 +1,386 @@
+.home-hero {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1.55fr)
+    minmax(0, 1.25fr)
+    minmax(190px, 0.72fr);
+  gap: 12px;
+  align-items: stretch;
+  padding-top: 15px;
+  padding-bottom: 75px;
+}
+
+/* Main group photo */
+.hero-group-image {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.hero-group-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  object-fit: contain;
+  object-position: center top;
+}
+
+.hero-centre {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.hero-affiliations {
+  width: 100%;
+  height: 205px;
+  object-fit: contain;
+}
+
+.hero-copy {
+  flex: 1;
+  margin-top: 28px;
+  padding: 34px 36px 30px;
+  background: #f3f1ee;
+  font-size: clamp(1.65rem, 1.8vw, 2.15rem);
+  font-weight: 300;
+  line-height: 1.35;
+}
+
+.hero-copy p {
+  max-width: 520px;
+  margin: 0 0 42px;
+}
+
+.hero-copy p:last-of-type {
+  margin-bottom: 0;
+}
+
+.hero-copy a {
+  display: block;
+  width: fit-content;
+  margin: 34px 0 0 auto;
+  padding: 13px 26px;
+  background: #111;
+  color: #fff;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.hero-copy a:hover {
+  opacity: 0.75;
+}
+
+.hero-research-images {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.hero-research-images img {
+  width: 100%;
+  height: 100%;
+  min-height: 150px;
+  object-fit: cover;
+}
+
+.news-section {
+  padding-top: 10px;
+  padding-bottom: 160px;
+}
+
+.news-section > h2 {
+  margin: 0 0 90px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.news-grid {
+  column-count: 5;
+  column-gap: 55px;
+}
+
+.news-card {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 48px;
+  break-inside: avoid;
+  vertical-align: top;
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 14px;
+  object-fit: cover;
+}
+
+.news-date {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.news-card h3 {
+  margin: 0 0 12px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.12;
+  letter-spacing: 0;
+}
+
+.news-card h3 a {
+  text-decoration: none;
+}
+
+.news-excerpt {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.news-excerpt p {
+  margin: 0;
+}
+
+.read-more {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+@media (max-width: 1150px) {
+  .home-hero {
+    grid-template-columns:
+      minmax(0, 1.35fr)
+      minmax(0, 1fr);
+  }
+
+  .hero-copy {
+    font-size: clamp(1.45rem, 2.3vw, 2rem);
+  }
+
+  .hero-research-images {
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .hero-research-images img {
+    height: 220px;
+  }
+
+  .news-grid {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-hero {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 60px;
+  }
+
+  .hero-group-image,
+  .hero-centre,
+  .hero-research-images {
+    margin-bottom: 18px;
+  }
+
+  .hero-group-image img {
+    min-height: 0;
+  }
+
+  .hero-affiliations {
+    height: auto;
+    margin: 24px 0;
+  }
+
+  .hero-copy {
+    margin: 0;
+    padding: 28px 24px;
+    font-size: 1.5rem;
+    line-height: 1.35;
+  }
+
+  .hero-copy p {
+    margin-bottom: 32px;
+  }
+
+  .hero-copy a {
+    margin: 28px 0 0;
+  }
+
+  .hero-research-images {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 18px;
+  }
+
+  .hero-research-images img {
+    height: auto;
+    min-height: 0;
+  }
+
+  .news-section {
+    padding-bottom: 100px;
+  }
+
+  .news-section > h2 {
+    margin-bottom: 50px;
+  }
+
+  .news-grid {
+    column-count: 1;
+  }
+
+  .news-card {
+    margin-bottom: 44px;
+  }
+}
+
+/* More compact homepage hero copy card */
+.hero-copy {
+  flex: 0 0 auto;
+  align-self: start;
+
+  padding: 30px 34px 26px;
+  margin-top: 18px;
+
+  background: #f3f1ee;
+
+  font-size: clamp(1.35rem, 1.65vw, 1.85rem);
+  line-height: 1.35;
+  font-weight: 300;
+}
+
+.hero-copy p {
+  max-width: 440px;
+  margin: 0 0 28px;
+}
+
+.hero-copy p:last-of-type {
+  margin-bottom: 0;
+}
+
+.hero-copy a {
+  display: block;
+  width: fit-content;
+
+  margin: 26px 0 0 auto;
+  padding: 11px 23px;
+
+  background: #111;
+  color: #fff;
+  border-radius: 999px;
+
+  font-size: 0.9rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Smaller homepage hero statement */
+.hero-copy {
+  flex: 0 0 auto;
+  align-self: start;
+  padding: 22px 26px 20px;
+  margin-top: 14px;
+  background: #f3f1ee;
+  font-size: clamp(1.1rem, 1.3vw, 1.45rem);
+  line-height: 1.35;
+  font-weight: 300;
+}
+
+.hero-copy p {
+  max-width: 380px;
+  margin: 0 0 20px;
+}
+
+.hero-copy p:last-of-type {
+  margin-bottom: 0;
+}
+
+.hero-copy a {
+  display: block;
+  width: fit-content;
+  margin: 20px 0 0 auto;
+  padding: 9px 19px;
+  background: #111;
+  color: #fff;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  line-height: 1.2;
+}
+
+/* Balanced homepage hero statement */
+.hero-copy {
+  flex: 0 0 auto;
+  align-self: start;
+
+  margin-top: 18px;
+  padding: 28px 32px 24px;
+
+  background: #f3f1ee;
+
+  font-size: clamp(1.35rem, 1.55vw, 1.7rem);
+  line-height: 1.38;
+  font-weight: 300;
+}
+
+.hero-copy p {
+  max-width: 430px;
+  margin: 0 0 25px;
+}
+
+.hero-copy p:last-of-type {
+  margin-bottom: 0;
+}
+
+.hero-copy a {
+  display: block;
+  width: fit-content;
+
+  margin: 24px 0 0 auto;
+  padding: 10px 21px;
+
+  background: #111;
+  color: #fff;
+  border-radius: 999px;
+
+  font-size: 0.85rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.hero-copy a:hover {
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+/* ==========================================================
+   Final homepage hero composition
+   ========================================================== */
+
+   @media (min-width: 1151px) {
+    .home-hero {
+      width: min(1360px, calc(100vw - 48px));
+      margin-left: 50%;
+      transform: translateX(-50%);
+  
+      grid-template-columns:
+        minmax(0, 1.75fr)
+        minmax(0, 1.18fr)
+        minmax(210px, 0.76fr);
+  
+      gap: 10px;
+    }
+  }

@@ -1,0 +1,54 @@
+---
+layout: default
+title: Recorded talks
+permalink: /resources/recorded-talks/
+page_css: /assets/css/resources.css
+---
+
+{% assign talks = site.data.resources.recorded_talks %}
+
+<main class="resource-page recorded-talks-page">
+
+  <nav class="resource-breadcrumb" aria-label="Breadcrumb">
+    <span>Resources</span>
+    <span aria-hidden="true">›</span>
+    <span>Recorded talks</span>
+  </nav>
+
+  <header class="resource-heading resource-heading--compact">
+    <h1>{{ talks.title }}</h1>
+    <p>{{ talks.description }}</p>
+    <p>{{ talks.intro }}</p>
+  </header>
+
+  <section class="talk-grid">
+
+    {% for playlist in talks.playlists %}
+      <a
+        class="talk-card"
+        href="{{ playlist.url }}"
+        target="_blank"
+        rel="noopener"
+      >
+
+        {% if playlist.image %}
+          <div class="talk-card-image">
+            <img
+              src="{{ playlist.image | relative_url }}"
+              alt=""
+            >
+          </div>
+        {% endif %}
+
+        <div class="talk-card-body">
+          <h2>{{ playlist.title }}</h2>
+          <p>{{ playlist.years }}</p>
+          <span class="talk-card-link">View playlist ↗</span>
+        </div>
+
+      </a>
+    {% endfor %}
+
+  </section>
+
+</main>

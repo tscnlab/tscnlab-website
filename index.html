@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<section class="home-hero shell" id="top">
+  <div class="hero-group-image">
+    <img
+      src="/assets/images/home/2024_group.webp"
+      alt="TSCN research group"
+    >
+  </div>
+
+  <div class="hero-centre">
+    <img
+      class="hero-affiliations"
+      src="/assets/images/home/worldmap.webp"
+      alt="TSCN affiliations"
+    >
+
+    <div class="hero-copy">
+      <p>
+        We’re a group of scientists based in Tübingen, Munich
+        and Singapore.
+      </p>
+
+      <p>
+        Our goal is to understand how light impacts human
+        physiology and behaviour.
+      </p>
+
+      <a href="/research/research-areas">Explore our research!</a>
+    </div>
+  </div>
+
+  <div class="hero-research-images">
+    <img
+      src="{{ '/assets/images/home/research-lab.jpg' | relative_url }}"
+      alt="Laboratory light experiment"
+    >
+  
+    <img
+      src="{{ '/assets/images/home/research-outdoor.jpg' | relative_url }}"
+      alt="Outdoor light measurement"
+    >
+  
+    <img
+      src="{{ '/assets/images/home/research-eye.jpg' | relative_url }}"
+      alt="Eye measurement experiment"
+    >
+  </div>
+</section>
+
+<section id="news" class="news-section shell">
+  <h2>News</h2>
+
+  <div class="news-grid">
+    {% for post in site.posts limit:20 %}
+      {% include news-card.html post=post %}
+    {% endfor %}
+  </div>
+</section>

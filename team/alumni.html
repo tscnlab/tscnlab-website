@@ -1,0 +1,29 @@
+---
+layout: default
+title: Alumni
+permalink: /team/alumni/
+---
+
+<div id="top"></div>
+
+<main class="alumni-page shell">
+  <p class="alumni-breadcrumb">
+    <a href="{{ '/team/' | relative_url }}">Team</a>
+    <span>›</span>
+    Alumni
+  </p>
+
+  <h1>Alumni</h1>
+
+  {% assign groups = site.alumni | sort: "order" %}
+
+  {% for group in groups %}
+    <section class="alumni-section">
+      <h2>{{ group.title }}</h2>
+
+      <div class="alumni-content">
+        {{ group.content }}
+      </div>
+    </section>
+  {% endfor %}
+</main>

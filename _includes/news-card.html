@@ -1,0 +1,35 @@
+<article class="news-card">
+  {% if post.image %}
+    <a href="{{ post.url | relative_url }}">
+      <img
+        class="news-image"
+        src="{{ post.image | relative_url }}"
+        alt="{{ post.title }}"
+      >
+    </a>
+  {% endif %}
+
+  <p class="news-date">
+    {{ post.date | date: "%B %-d, %Y" }}
+  </p>
+
+  <h3>
+    <a href="{{ post.url | relative_url }}">
+      {{ post.title }}
+    </a>
+  </h3>
+
+  {% if post.excerpt_text %}
+    <p class="news-excerpt">
+      {{ post.excerpt_text }}
+    </p>
+  {% elsif post.excerpt %}
+    <div class="news-excerpt">
+      {{ post.excerpt }}
+    </div>
+  {% endif %}
+
+  <a class="read-more" href="{{ post.url | relative_url }}">
+    Read more →
+  </a>
+</article>

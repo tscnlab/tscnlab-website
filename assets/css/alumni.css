@@ -1,0 +1,42 @@
+
+/* Alumni typography */
+
+.alumni-page {
+  max-width: 1150px;
+}
+
+.alumni-page > h1 {
+  font-size: clamp(3.4rem, 4.5vw, 5rem);
+}
+
+.alumni-section {
+  max-width: 1000px;
+  margin-bottom: 64px;
+}
+
+.alumni-section h2 {
+  font-size: clamp(2rem, 2.5vw, 2.7rem);
+  line-height: 1.15;
+  margin-bottom: 24px;
+}
+
+.alumni-content {
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.alumni-content p {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .alumni-content {
+    font-size: 17px;
+  }
+
+  .alumni-section h2 {
+    font-size: 2rem;
+  }
+}

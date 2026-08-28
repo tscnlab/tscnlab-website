@@ -1,0 +1,388 @@
+
+/* =====================================================
+   Resources
+===================================================== */
+
+.resource-page {
+  box-sizing: border-box;
+  width: min(1280px, calc(100% - 80px));
+  margin: 0 auto;
+  padding: 64px 0 96px;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.resource-page *,
+.resource-page *::before,
+.resource-page *::after {
+  box-sizing: border-box;
+}
+
+
+/* =====================================================
+   Headings
+===================================================== */
+
+.resource-heading {
+  max-width: 1080px;
+  margin: 0 0 44px;
+}
+
+.resource-eyebrow {
+  margin: 0 0 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.55;
+}
+
+.resource-heading h1,
+.resource-section h2,
+.timezone-box h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+.resource-heading h1 {
+  margin: 0;
+  font-size: clamp(42px, 5vw, 62px);
+  line-height: 1.08;
+}
+
+.resource-subtitle {
+  margin: 18px 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(25px, 3vw, 36px);
+  line-height: 1.25;
+}
+
+.resource-heading > p:not(.resource-eyebrow):not(.resource-subtitle) {
+  max-width: 900px;
+  margin: 22px 0 0;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+
+/* =====================================================
+   2025 seminar
+===================================================== */
+
+.seminar-page .resource-heading {
+  margin-bottom: 36px;
+}
+
+.seminar-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 56px;
+  align-items: center;
+  padding: 34px 0 44px;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.seminar-intro-copy {
+  max-width: 920px;
+}
+
+.seminar-intro-copy p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.seminar-action {
+  align-self: center;
+}
+
+.resource-button {
+  display: inline-flex;
+  min-width: 170px;
+  min-height: 50px;
+  padding: 12px 30px;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #111;
+  border-radius: 999px;
+
+  background: #111;
+  color: #fff;
+
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.resource-button:hover {
+  background: #fff;
+  color: #111;
+}
+
+.resource-section {
+  margin-top: 56px;
+}
+
+.resource-section > h2 {
+  margin: 0 0 24px;
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.speaker-list {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.speaker-row {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.85fr) minmax(0, 1.4fr);
+  gap: 38px;
+  padding: 17px 0;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.speaker-date {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.speaker-person {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 9px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.speaker-person strong {
+  font-weight: 600;
+}
+
+.speaker-person span {
+  opacity: 0.7;
+}
+
+.timezone-box {
+  margin-top: 50px;
+  padding: 26px 30px;
+  background: #f5f5f5;
+}
+
+.timezone-box h2 {
+  margin: 0 0 9px;
+  font-size: 24px;
+}
+
+.timezone-box p {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+/* =====================================================
+   2024 seminar
+===================================================== */
+
+.seminar-archive-page {
+  padding-top: 56px;
+}
+
+.seminar-archive-grid {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.78fr) minmax(0, 1.22fr);
+  gap: clamp(48px, 6vw, 90px);
+  align-items: start;
+}
+
+.seminar-poster {
+  width: 100%;
+  max-width: 470px;
+}
+
+.seminar-poster img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.seminar-archive-content {
+  min-width: 0;
+  padding-top: 4px;
+}
+
+.seminar-archive-content .resource-heading {
+  margin-bottom: 38px;
+}
+
+.seminar-archive-content .resource-heading h1 {
+  font-size: clamp(39px, 4vw, 56px);
+}
+
+.seminar-description {
+  max-width: 760px;
+  margin: 0 0 34px;
+  font-size: 18px;
+  line-height: 1.72;
+}
+
+
+/* =====================================================
+   Breadcrumb
+===================================================== */
+
+.resource-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 28px;
+
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0.65;
+}
+
+
+/* =====================================================
+   Recorded talks
+===================================================== */
+
+.recorded-talks-page {
+  padding-top: 56px;
+}
+
+.resource-heading--compact {
+  max-width: 980px;
+  margin-bottom: 44px;
+}
+
+.resource-heading--compact h1 {
+  font-size: clamp(42px, 4.5vw, 58px);
+}
+
+.resource-heading--compact p {
+  margin: 16px 0 0;
+  max-width: 900px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.talk-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+.talk-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+  color: inherit;
+  text-decoration: none;
+}
+
+.talk-card-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #f2f2f2;
+}
+
+.talk-card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.talk-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 18px 18px 20px;
+}
+
+.talk-card-body h2 {
+  margin: 0;
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.talk-card-body p {
+  margin: 10px 0 20px;
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.talk-card-link {
+  margin-top: auto;
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+
+/* =====================================================
+   Responsive
+===================================================== */
+
+@media (max-width: 1080px) {
+  .resource-page {
+    width: min(100% - 56px, 1280px);
+  }
+
+  .talk-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .seminar-archive-grid {
+    grid-template-columns: minmax(280px, 0.75fr) minmax(0, 1.1fr);
+    gap: 46px;
+  }
+}
+
+@media (max-width: 760px) {
+  .resource-page {
+    width: min(100% - 36px, 1280px);
+    padding: 42px 0 70px;
+  }
+
+  .seminar-intro {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
+  .speaker-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .seminar-archive-grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .seminar-poster {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 520px) {
+  .talk-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-heading h1 {
+    font-size: 38px;
+  }
+}

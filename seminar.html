@@ -1,0 +1,61 @@
+---
+layout: default
+title: Current Topics in Visual & Circadian Neuroscience
+permalink: /seminar/
+page_css: /assets/css/resources.css
+---
+
+{% assign seminar = site.data.resources.seminar_2025 %}
+
+<main class="resource-page seminar-page">
+
+  <header class="resource-heading">
+    <p class="resource-eyebrow">Seminar series</p>
+    <h1>{{ seminar.title }}</h1>
+    <p class="resource-subtitle">{{ seminar.subtitle }}</p>
+  </header>
+
+  <section class="seminar-intro">
+    <div class="seminar-intro-copy">
+      <p>{{ seminar.description }}</p>
+    </div>
+
+    {% if seminar.register_url %}
+      <div class="seminar-action">
+        <a
+          class="resource-button"
+          href="{{ seminar.register_url }}"
+          target="_blank"
+          rel="noopener"
+        >
+          Register
+        </a>
+      </div>
+    {% endif %}
+  </section>
+
+  <section class="resource-section">
+    <h2>Speakers</h2>
+
+    <div class="speaker-list">
+      {% for speaker in seminar.speakers %}
+        <article class="speaker-row">
+          <div class="speaker-date">
+            {{ speaker.datetime }}
+          </div>
+
+          <div class="speaker-person">
+            <strong>{{ speaker.name }}</strong>
+            <span>{{ speaker.affiliation }}</span>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="timezone-box">
+    <h2>Time zone conversion</h2>
+    <p>{{ seminar.timezone }}</p>
+  </section>
+
+</main>

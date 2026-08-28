@@ -1,0 +1,31 @@
+---
+layout: default
+title: Team
+---
+
+<div id="top"></div>
+
+<main class="team-page shell">
+  <h1>Team</h1>
+
+  {% assign groups = "Principal Investigator|Postdoctoral Fellows|Research Software Engineers|Doctoral Students|Thesis Students|Visitors and Interns|Administrative Support|Specialists" | split: "|" %}
+
+  {% for group in groups %}
+    {% assign group_members = site.members
+      | where: "group", group
+      | sort: "order"
+    %}
+
+    {% if group_members.size > 0 %}
+      <section class="team-section">
+        <h2>{{ group }}</h2>
+
+        <div class="member-grid{% if group == 'Principal Investigator' %} member-grid--pi{% endif %}{% if group == 'Thesis Students' %} member-grid--text{% endif %}">
+          {% for member in group_members %}
+            {% include member-card.html member=member %}
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+</main>

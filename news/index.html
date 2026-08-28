@@ -1,0 +1,14 @@
+---
+layout: default
+title: News
+---
+
+<div id="top"></div>
+
+<main class="news-page shell">
+  <div class="news-page-list">
+    {% for post in site.posts %}
+      {% include news-list-item.html post=post %}
+    {% endfor %}
+  </div>
+</main>

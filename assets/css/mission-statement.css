@@ -1,0 +1,138 @@
+.mission-page {
+  max-width: 1040px;
+  padding-top: 55px;
+  padding-bottom: 130px;
+}
+
+.mission-header {
+  margin-bottom: 28px;
+}
+
+.mission-header h1 {
+  margin: 0 0 28px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 4.5vw, 4.8rem);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.mission-source {
+  max-width: 760px;
+  margin: 0;
+
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.mission-source a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.mission-content {
+  max-width: 860px;
+
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.mission-content > *:first-child {
+  margin-top: 0;
+}
+
+.mission-content h1 {
+  margin: 85px 0 30px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.5rem, 3.4vw, 3.7rem);
+  font-weight: 400;
+  line-height: 1.12;
+}
+
+.mission-content h2 {
+  margin: 72px 0 24px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 2.7vw, 2.8rem);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.mission-content h3 {
+  margin: 55px 0 20px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.mission-content p {
+  margin: 0 0 26px;
+}
+
+.mission-content ul,
+.mission-content ol {
+  margin: 0 0 28px;
+  padding-left: 1.4em;
+}
+
+.mission-content li {
+  margin-bottom: 10px;
+}
+
+.mission-content blockquote {
+  margin: 36px 0;
+  padding-left: 24px;
+
+  border-left: 1px solid #aaa;
+}
+
+.mission-content a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.mission-content strong {
+  font-weight: 500;
+}
+
+.mission-content hr {
+  margin: 60px 0;
+
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+@media (max-width: 700px) {
+  .mission-page {
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }
+
+  .mission-header {
+    margin-bottom: 24px;
+  }
+
+  .mission-header h1 {
+    margin-bottom: 22px;
+  }
+
+  .mission-source {
+    font-size: 16px;
+  }
+
+  .mission-content {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .mission-content h1 {
+    margin-top: 65px;
+  }
+
+  .mission-content h2 {
+    margin-top: 55px;
+  }
+}

@@ -1,0 +1,38 @@
+<article class="news-list-item">
+  {% if post.image %}
+    <a class="news-list-image" href="{{ post.url | relative_url }}">
+      <img
+        src="{{ post.image | relative_url }}"
+        alt="{{ post.title }}"
+      >
+    </a>
+  {% endif %}
+
+  <div class="news-list-content">
+    <time
+      class="news-list-date"
+      datetime="{{ post.date | date_to_xmlschema }}"
+    >
+      {{ post.date | date: "%-m/%-d/%y" }}
+    </time>
+
+    <h2>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    {% if post.excerpt_text %}
+      <p class="news-list-excerpt">
+        {{ post.excerpt_text }}
+      </p>
+    {% endif %}
+
+    <a
+      class="news-list-more"
+      href="{{ post.url | relative_url }}"
+    >
+      Read More
+    </a>
+  </div>
+</article>

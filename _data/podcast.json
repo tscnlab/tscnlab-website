@@ -1,0 +1,432 @@
+{
+  "title": "Light O’Clock",
+  "subtitle": "A podcast on light and your body clock",
+  "tagline": "We break down the science behind circadian rhythms so you can be enlightened.",
+  "description": "In each podcast episode, we chat with experts in the field about a variety of topics, spanning from the effects of light on our biology and how it can be used for the treatment of psychiatric disorders and beyond.",
+  "platforms": [
+    {
+      "name": "Spotify",
+      "url": "https://open.spotify.com/show/6ahsTtsDAMjDyArgcQQ2hm",
+      "image": "/assets/images/podcast/platform-spotify.png"
+    },
+    {
+      "name": "Apple Podcasts",
+      "url": "https://podcasts.apple.com/us/podcast/light-oclock/id1732012771",
+      "image": "/assets/images/podcast/platform-apple-podcasts.png"
+    },
+    {
+      "name": "podcast.de",
+      "url": "https://www.podcast.de/podcast/3408185/light-oclock",
+      "image": "/assets/images/podcast/platform-podcast-de.png"
+    },
+    {
+      "name": "Wissenschaftspodcasts",
+      "url": "https://wissenschaftspodcasts.de/podcasts/light-oclock/",
+      "image": "/assets/images/podcast/platform-wissenschaftspodcasts.png"
+    }
+  ],
+  "trailers": [
+    {
+      "season": 3,
+      "title": "Season 3 – Trailer",
+      "audio": "/assets/audio/podcast/season-3-trailer.mp3",
+      "artwork": "/assets/images/podcast/trailer-season-3.jpg"
+    },
+    {
+      "season": 2,
+      "title": "Season 2 – Trailer",
+      "audio": "/assets/audio/podcast/season-2-trailer.mp3",
+      "artwork": "/assets/images/podcast/trailer-season-2.jpg"
+    },
+    {
+      "season": 1,
+      "title": "Season 1 – Trailer",
+      "audio": "/assets/audio/podcast/season-1-trailer.mp3",
+      "artwork": "/assets/images/podcast/trailer-season-1.png"
+    }
+  ],
+  "episode_groups": [
+    {
+      "name": "Season 4",
+      "episodes": [
+        {
+          "title": "Episode 1: Why biological timing matters in medicine",
+          "url": null,
+          "image": "/assets/images/podcast/artwork-01.png",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/3b64343a-041c-40da-afc5-dd5d131b24c9/lightoclock-s04e01.jpg",
+          "group": "Season 4"
+        },
+        {
+          "title": "Episode 2: The best time for a vaccine? Circadian rhythms and immunity",
+          "url": "https://www.tscnlab.org/podcast/s04e02",
+          "image": "/assets/images/podcast/artwork-02.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/1780088f-b412-4140-a5fe-05df03e11d04/lightoclock-s04e02.jpg",
+          "group": "Season 4"
+        }
+      ]
+    },
+    {
+      "name": "Season 3",
+      "episodes": [
+        {
+          "title": "Episode 1: Tick-tock trouble – How clock changes affect our health",
+          "url": "https://tscnlab.org/podcast/s03e01",
+          "image": "/assets/images/podcast/artwork-03.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/ce44a514-6a77-45e4-8fcb-a5f19e8690ff/lightoclock-s03e01.jpg",
+          "group": "Season 3"
+        },
+        {
+          "title": "Episode 2: City lights, country nights – Circadian rhythms in urban and rural life",
+          "url": "https://www.tscnlab.org/podcast/s03e02",
+          "image": "/assets/images/podcast/artwork-04.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/c6abfed2-822a-4b08-a194-c306856e69a2/lightoclock-s03e02.jpg",
+          "group": "Season 3"
+        },
+        {
+          "title": "Episode 3: Blurred vision – The myopia epidemic and indoor lifestyles",
+          "url": "https://www.tscnlab.org/podcast/s03e03",
+          "image": "/assets/images/podcast/artwork-05.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/9ad6e444-fc15-492b-b0cd-93380c5c904e/lightoclock-s03e03+%281%29.jpg",
+          "group": "Season 3"
+        },
+        {
+          "title": "Episode 4: Too early to think? Why school start times matter for sleep and learning",
+          "url": "https://www.tscnlab.org/podcast/s03e04",
+          "image": "/assets/images/podcast/artwork-06.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/deeda254-0e8c-4816-9031-3c896f34ca92/lightoclock-s03e04.jpg",
+          "group": "Season 3"
+        },
+        {
+          "title": "Episode 5: Drowning in light – The hidden costs of light pollution",
+          "url": "https://tscnlab.org/podcast/s03e05",
+          "image": "/assets/images/podcast/artwork-07.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/1a5eb0d9-24c7-4660-a1d4-439ed306a43a/lightoclock-s03e05.jpg",
+          "group": "Season 3"
+        }
+      ]
+    },
+    {
+      "name": "Spotlights & Live",
+      "episodes": [
+        {
+          "title": "Spotlight: The dark side of daylight (Daylight Awareness Week 2024)",
+          "url": "https://tscnlab.org/podcast/spotlight/halloween-2024",
+          "image": "/assets/images/podcast/artwork-08.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/e5ccb3a9-c401-4cc7-a411-0d29d2d7b7c0/lightoclock-spotlight-dla-halloween.jpg",
+          "group": "Spotlights & Live"
+        },
+        {
+          "title": "Spotlight: Research, rooted in reality – The power of lived experience in scientific studies",
+          "url": "https://www.tscnlab.org/podcast/spotlight/lived-experience",
+          "image": "/assets/images/podcast/artwork-09.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/f553ee17-dbb1-4c3e-b255-91b81f70d1b8/lightoclock-spotlight-livedexperienced.jpg",
+          "group": "Spotlights & Live"
+        },
+        {
+          "title": "Spotlight: Winter blues: SAD and how to winter well",
+          "url": "https://www.tscnlab.org/spotlight/sad",
+          "image": "/assets/images/podcast/artwork-10.png",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/ac5b359f-22c5-4339-b58d-646dd24d68b3/light+o%27clock-28+%281%29.png",
+          "group": "Spotlights & Live"
+        },
+        {
+          "title": "Live episode: Night owl or early riser? A live podcast episode",
+          "url": "https://www.tscnlab.org/live/2025",
+          "image": "/assets/images/podcast/artwork-11.png",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/108319cc-d1f1-45dd-b0d6-3de11fbd1e6b/lightoclock-live-vienna+%281%29.png",
+          "group": "Spotlights & Live"
+        }
+      ]
+    },
+    {
+      "name": "Season 2",
+      "episodes": [
+        {
+          "title": "Episode 1: Cave studies and fruit flies – the history of chronobiology",
+          "url": "https://tscnlab.org/podcast/s02e01",
+          "image": "/assets/images/podcast/artwork-12.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/7385ea27-a135-4084-beee-c8103e145ed0/light+o%27clock-s02e01_guest.jpg",
+          "group": "Season 2"
+        },
+        {
+          "title": "Episode 2: Sleep and circadian rhythms – same or different?",
+          "url": "https://tscnlab.org/podcast/s02e02",
+          "image": "/assets/images/podcast/artwork-13.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/d88e9423-167c-454f-a4ee-46ef87b5ce6e/light+o%27clock-s02e02_guest.jpg",
+          "group": "Season 2"
+        },
+        {
+          "title": "Episode 3: Early birds and night owls – what is chronotype?",
+          "url": "https://tscnlab.org/podcast/s02e03",
+          "image": "/assets/images/podcast/artwork-14.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/f9b4eba2-5613-4aa5-b9f2-d385a3b485b1/light+o%27clock-s02e03_guest.jpg",
+          "group": "Season 2"
+        },
+        {
+          "title": "Episode 4: In and out of sync",
+          "url": "https://tscnlab.org/podcast/s02e04",
+          "image": "/assets/images/podcast/artwork-15.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/110965ff-fe09-4c28-9317-e051ce78e7b5/light+o%27clock-s02e04_guest.jpg",
+          "group": "Season 2"
+        },
+        {
+          "title": "Episode 5: Shedding light on... circadian rhythms and mental health",
+          "url": "https://tscnlab.org/podcast/s02e05",
+          "image": "/assets/images/podcast/artwork-16.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/1365f1ba-c4af-4666-b036-9d788fa6d0ea/light+o%27clock-s02e05_guest.jpg",
+          "group": "Season 2"
+        }
+      ]
+    },
+    {
+      "name": "Season 1",
+      "episodes": [
+        {
+          "title": "Episode 1: Light exposure – Why should we care?",
+          "url": "https://tscnlab.org/podcast/s01e01",
+          "image": "/assets/images/podcast/artwork-17.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/3f701252-dde9-48a8-a298-67fb99f73b71/lightoclock-s01e01.jpg",
+          "group": "Season 1"
+        },
+        {
+          "title": "Episode 2: Light’s journey through the eye",
+          "url": "https://tscnlab.org/podcast/s01e02",
+          "image": "/assets/images/podcast/artwork-18.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/da509f22-ffd7-4f5a-b7e9-49c4c51121e0/lightoclock-s01e02.jpg",
+          "group": "Season 1"
+        },
+        {
+          "title": "Episode 3: Using light to tell time",
+          "url": "https://tscnlab.org/podcast/s01e03",
+          "image": "/assets/images/podcast/artwork-19.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/b1864893-5225-489c-8580-801461bf590f/lightoclock-s01e03.jpg",
+          "group": "Season 1"
+        },
+        {
+          "title": "Episode 4: Melatonin – the night time hormone",
+          "url": "https://tscnlab.org/podcast/s01e04",
+          "image": "/assets/images/podcast/artwork-20.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/7ae55214-1a46-440b-ab65-47fdfab09cda/lightoclock-s01e04.jpg",
+          "group": "Season 1"
+        },
+        {
+          "title": "Episode 5: Shedding light on… pupil size across the lifespan",
+          "url": "https://tscnlab.org/podcast/s01e05",
+          "image": "/assets/images/podcast/artwork-21.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/b53c910d-3a00-4191-b24f-ae9f76edf95f/lightoclock-s01e05.jpg",
+          "group": "Season 1"
+        },
+        {
+          "title": "Episode 6: You ask, we answer – special Q&A episode",
+          "url": "https://tscnlab.org/podcast/s01e06",
+          "image": "/assets/images/podcast/artwork-22.jpg",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/d5794aa4-964d-42b7-b4fb-a9b0c30e5c15/lightoclock-s01e06-square.jpg",
+          "group": "Season 1"
+        }
+      ]
+    },
+    {
+      "name": "Interacting with Daylight",
+      "episodes": [
+        {
+          "title": "Interacting with Daylight Mini-Series – Episode 1: Geolocation",
+          "url": "https://www.tscnlab.org/podcast/dla-miniseries/s01",
+          "image": "/assets/images/podcast/artwork-23.png",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/5b2a16d5-1fb5-482e-9b99-c6dc4710c10b/light+o%27clock-8-Episode+1.png",
+          "group": "Interacting with Daylight"
+        },
+        {
+          "title": "Interacting with Daylight Mini-Series – Episode 2: Culture & behaviour",
+          "url": "https://www.tscnlab.org/podcast/dla-miniseries/s02",
+          "image": "/assets/images/podcast/artwork-24.png",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/0e7d91ff-078e-4099-bcb9-bf9e08c9734c/light+o%27clock-9-Episode+1+%281%29.png",
+          "group": "Interacting with Daylight"
+        },
+        {
+          "title": "Interacting with Daylight Mini-Series – Episode 3: Built environment",
+          "url": "https://www.tscnlab.org/podcast/dla-miniseries/s03",
+          "image": "/assets/images/podcast/artwork-25.png",
+          "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/133ad585-b829-4ca2-80a8-ff47fdf41bf7/light+o%27clock-10-Episode+1+%281%29.png",
+          "group": "Interacting with Daylight"
+        }
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "title": "Episode 1: Why biological timing matters in medicine",
+      "url": null,
+      "image": "/assets/images/podcast/artwork-01.png",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/d770923a-5faf-41b0-8a15-4dc5ccc835d0/lightoclock-s01-cover.png",
+      "group": "Season 4"
+    },
+    {
+      "title": "Episode 2: The best time for a vaccine? Circadian rhythms and immunity",
+      "url": "https://www.tscnlab.org/podcast/s04e02",
+      "image": "/assets/images/podcast/artwork-02.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/1780088f-b412-4140-a5fe-05df03e11d04/lightoclock-s04e02.jpg",
+      "group": "Season 4"
+    },
+    {
+      "title": "Episode 1: Tick-tock trouble – How clock changes affect our health",
+      "url": "https://tscnlab.org/podcast/s03e01",
+      "image": "/assets/images/podcast/artwork-03.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/ce44a514-6a77-45e4-8fcb-a5f19e8690ff/lightoclock-s03e01.jpg",
+      "group": "Season 3"
+    },
+    {
+      "title": "Episode 2: City lights, country nights – Circadian rhythms in urban and rural life",
+      "url": "https://www.tscnlab.org/podcast/s03e02",
+      "image": "/assets/images/podcast/artwork-04.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/c6abfed2-822a-4b08-a194-c306856e69a2/lightoclock-s03e02.jpg",
+      "group": "Season 3"
+    },
+    {
+      "title": "Episode 3: Blurred vision – The myopia epidemic and indoor lifestyles",
+      "url": "https://www.tscnlab.org/podcast/s03e03",
+      "image": "/assets/images/podcast/artwork-05.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/9ad6e444-fc15-492b-b0cd-93380c5c904e/lightoclock-s03e03+%281%29.jpg",
+      "group": "Season 3"
+    },
+    {
+      "title": "Episode 4: Too early to think? Why school start times matter for sleep and learning",
+      "url": "https://www.tscnlab.org/podcast/s03e04",
+      "image": "/assets/images/podcast/artwork-06.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/deeda254-0e8c-4816-9031-3c896f34ca92/lightoclock-s03e04.jpg",
+      "group": "Season 3"
+    },
+    {
+      "title": "Episode 5: Drowning in light – The hidden costs of light pollution",
+      "url": "https://tscnlab.org/podcast/s03e05",
+      "image": "/assets/images/podcast/artwork-07.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/1a5eb0d9-24c7-4660-a1d4-439ed306a43a/lightoclock-s03e05.jpg",
+      "group": "Season 3"
+    },
+    {
+      "title": "Spotlight: The dark side of daylight (Daylight Awareness Week 2024)",
+      "url": "https://tscnlab.org/podcast/spotlight/halloween-2024",
+      "image": "/assets/images/podcast/artwork-08.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/e5ccb3a9-c401-4cc7-a411-0d29d2d7b7c0/lightoclock-spotlight-dla-halloween.jpg",
+      "group": "Spotlights & Live"
+    },
+    {
+      "title": "Spotlight: Research, rooted in reality – The power of lived experience in scientific studies",
+      "url": "https://www.tscnlab.org/podcast/spotlight/lived-experience",
+      "image": "/assets/images/podcast/artwork-09.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/f553ee17-dbb1-4c3e-b255-91b81f70d1b8/lightoclock-spotlight-livedexperienced.jpg",
+      "group": "Spotlights & Live"
+    },
+    {
+      "title": "Spotlight: Winter blues: SAD and how to winter well",
+      "url": "https://www.tscnlab.org/spotlight/sad",
+      "image": "/assets/images/podcast/artwork-10.png",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/ac5b359f-22c5-4339-b58d-646dd24d68b3/light+o%27clock-28+%281%29.png",
+      "group": "Spotlights & Live"
+    },
+    {
+      "title": "Live episode: Night owl or early riser? A live podcast episode",
+      "url": "https://www.tscnlab.org/live/2025",
+      "image": "/assets/images/podcast/artwork-11.png",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/108319cc-d1f1-45dd-b0d6-3de11fbd1e6b/lightoclock-live-vienna+%281%29.png",
+      "group": "Spotlights & Live"
+    },
+    {
+      "title": "Episode 1: Cave studies and fruit flies – the history of chronobiology",
+      "url": "https://tscnlab.org/podcast/s02e01",
+      "image": "/assets/images/podcast/artwork-12.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/7385ea27-a135-4084-beee-c8103e145ed0/light+o%27clock-s02e01_guest.jpg",
+      "group": "Season 2"
+    },
+    {
+      "title": "Episode 2: Sleep and circadian rhythms – same or different?",
+      "url": "https://tscnlab.org/podcast/s02e02",
+      "image": "/assets/images/podcast/artwork-13.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/d88e9423-167c-454f-a4ee-46ef87b5ce6e/light+o%27clock-s02e02_guest.jpg",
+      "group": "Season 2"
+    },
+    {
+      "title": "Episode 3: Early birds and night owls – what is chronotype?",
+      "url": "https://tscnlab.org/podcast/s02e03",
+      "image": "/assets/images/podcast/artwork-14.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/f9b4eba2-5613-4aa5-b9f2-d385a3b485b1/light+o%27clock-s02e03_guest.jpg",
+      "group": "Season 2"
+    },
+    {
+      "title": "Episode 4: In and out of sync",
+      "url": "https://tscnlab.org/podcast/s02e04",
+      "image": "/assets/images/podcast/artwork-15.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/110965ff-fe09-4c28-9317-e051ce78e7b5/light+o%27clock-s02e04_guest.jpg",
+      "group": "Season 2"
+    },
+    {
+      "title": "Episode 5: Shedding light on... circadian rhythms and mental health",
+      "url": "https://tscnlab.org/podcast/s02e05",
+      "image": "/assets/images/podcast/artwork-16.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/1365f1ba-c4af-4666-b036-9d788fa6d0ea/light+o%27clock-s02e05_guest.jpg",
+      "group": "Season 2"
+    },
+    {
+      "title": "Episode 1: Light exposure – Why should we care?",
+      "url": "https://tscnlab.org/podcast/s01e01",
+      "image": "/assets/images/podcast/artwork-17.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/3f701252-dde9-48a8-a298-67fb99f73b71/lightoclock-s01e01.jpg",
+      "group": "Season 1"
+    },
+    {
+      "title": "Episode 2: Light’s journey through the eye",
+      "url": "https://tscnlab.org/podcast/s01e02",
+      "image": "/assets/images/podcast/artwork-18.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/da509f22-ffd7-4f5a-b7e9-49c4c51121e0/lightoclock-s01e02.jpg",
+      "group": "Season 1"
+    },
+    {
+      "title": "Episode 3: Using light to tell time",
+      "url": "https://tscnlab.org/podcast/s01e03",
+      "image": "/assets/images/podcast/artwork-19.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/b1864893-5225-489c-8580-801461bf590f/lightoclock-s01e03.jpg",
+      "group": "Season 1"
+    },
+    {
+      "title": "Episode 4: Melatonin – the night time hormone",
+      "url": "https://tscnlab.org/podcast/s01e04",
+      "image": "/assets/images/podcast/artwork-20.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/7ae55214-1a46-440b-ab65-47fdfab09cda/lightoclock-s01e04.jpg",
+      "group": "Season 1"
+    },
+    {
+      "title": "Episode 5: Shedding light on… pupil size across the lifespan",
+      "url": "https://tscnlab.org/podcast/s01e05",
+      "image": "/assets/images/podcast/artwork-21.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/b53c910d-3a00-4191-b24f-ae9f76edf95f/lightoclock-s01e05.jpg",
+      "group": "Season 1"
+    },
+    {
+      "title": "Episode 6: You ask, we answer – special Q&A episode",
+      "url": "https://tscnlab.org/podcast/s01e06",
+      "image": "/assets/images/podcast/artwork-22.jpg",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/d5794aa4-964d-42b7-b4fb-a9b0c30e5c15/lightoclock-s01e06-square.jpg",
+      "group": "Season 1"
+    },
+    {
+      "title": "Interacting with Daylight Mini-Series – Episode 1: Geolocation",
+      "url": "https://www.tscnlab.org/podcast/dla-miniseries/s01",
+      "image": "/assets/images/podcast/artwork-23.png",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/5b2a16d5-1fb5-482e-9b99-c6dc4710c10b/light+o%27clock-8-Episode+1.png",
+      "group": "Interacting with Daylight"
+    },
+    {
+      "title": "Interacting with Daylight Mini-Series – Episode 2: Culture & behaviour",
+      "url": "https://www.tscnlab.org/podcast/dla-miniseries/s02",
+      "image": "/assets/images/podcast/artwork-24.png",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/0e7d91ff-078e-4099-bcb9-bf9e08c9734c/light+o%27clock-9-Episode+1+%281%29.png",
+      "group": "Interacting with Daylight"
+    },
+    {
+      "title": "Interacting with Daylight Mini-Series – Episode 3: Built environment",
+      "url": "https://www.tscnlab.org/podcast/dla-miniseries/s03",
+      "image": "/assets/images/podcast/artwork-25.png",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63305b1689502f4882626e0f/133ad585-b829-4ca2-80a8-ff47fdf41bf7/light+o%27clock-10-Episode+1+%281%29.png",
+      "group": "Interacting with Daylight"
+    }
+  ]
+}

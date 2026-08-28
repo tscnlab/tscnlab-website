@@ -1,0 +1,20 @@
+title: Translational Sensory and Circadian Neuroscience Unit
+description: Research group based in Tübingen, Munich and Singapore.
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: /news/:year/:month/:day/:title/
+
+collections:
+  members:
+    output: true
+    permalink: /team/:name/
+  alumni:
+    output: false
+  mission:
+    output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

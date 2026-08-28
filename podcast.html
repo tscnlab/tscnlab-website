@@ -1,0 +1,198 @@
+---
+layout: default
+title: Light O'Clock
+permalink: /podcast/
+---
+
+<div id="top"></div>
+
+{% assign podcast = site.data.podcast %}
+
+<main class="podcast-page shell">
+
+  <section class="podcast-hero">
+
+    <div class="podcast-intro-copy">
+      <p class="podcast-kicker">Podcast</p>
+
+      <h1>{{ podcast.title }}</h1>
+
+      <h2>{{ podcast.subtitle }}</h2>
+
+      <p class="podcast-tagline">
+        {{ podcast.tagline }}
+      </p>
+
+      <p class="podcast-description">
+        {{ podcast.description }}
+      </p>
+
+      <div class="podcast-platforms">
+        {% for platform in podcast.platforms %}
+          <a
+            href="{{ platform.url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Listen on {{ platform.name }}"
+          >
+            {% if platform.image %}
+              <img
+                src="{{ platform.image | relative_url }}"
+                alt="{{ platform.name }}"
+              >
+            {% else %}
+              {{ platform.name }}
+            {% endif %}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+
+
+    <div class="podcast-trailers">
+      {% for trailer in podcast.trailers %}
+        <article class="podcast-trailer">
+
+          {% if trailer.artwork %}
+            <img
+              class="podcast-trailer-artwork"
+              src="{{ trailer.artwork | relative_url }}"
+              alt="{{ trailer.title }}"
+            >
+          {% endif %}
+
+          <div class="podcast-trailer-player">
+            <div class="podcast-trailer-label">
+              <span>{{ trailer.title }}</span>
+              <small>Light O'Clock</small>
+            </div>
+
+            <audio controls preload="metadata">
+              <source src="{{ trailer.audio | relative_url }}" type="audio/mpeg">
+            </audio>
+          </div>
+
+        </article>
+      {% endfor %}
+    </div>
+
+  </section>
+
+
+  <section class="podcast-episodes">
+
+    <header class="podcast-section-heading">
+      <p>Light O’Clock</p>
+      <h2>Episodes</h2>
+    </header>
+
+
+    {% for group in podcast.episode_groups %}
+
+      <section class="podcast-season">
+
+        <div class="podcast-season-heading">
+          <h3>{{ group.name }}</h3>
+
+          <span>
+            {{ group.episodes | size }}
+            {% if group.episodes.size == 1 %}
+              episode
+            {% else %}
+              episodes
+            {% endif %}
+          </span>
+        </div>
+
+        <div class="podcast-episode-grid">
+
+          {% for episode in group.episodes %}
+            <article class="podcast-card">
+
+              {% if episode.url %}
+                <a
+                  class="podcast-card-image"
+                  href="{{ episode.url }}"
+                >
+              {% else %}
+                <div class="podcast-card-image">
+              {% endif %}
+
+                  {% if episode.image %}
+                    <img
+                      src="{{ episode.image | relative_url }}"
+                      alt="{{ episode.title }}"
+                    >
+                  {% endif %}
+
+              {% if episode.url %}
+                </a>
+              {% else %}
+                </div>
+              {% endif %}
+
+              <h4>
+                {% if episode.url %}
+                  <a href="{{ episode.url }}">
+                    {{ episode.title }}
+                  </a>
+                {% else %}
+                  {{ episode.title }}
+                {% endif %}
+              </h4>
+
+            </article>
+          {% endfor %}
+
+        </div>
+
+      </section>
+
+    {% endfor %}
+
+  </section>
+
+
+  <section class="podcast-bottom">
+
+    <div>
+      <h2>Team</h2>
+  
+      <p>
+        <strong>Hosting and moderation:</strong> Carolina Guidolin
+      </p>
+  
+      <p>
+        <strong>Scientific supervision:</strong> Manuel Spitschan
+      </p>
+  
+      <p>
+        <strong>Team:</strong>
+        Alexander Hahn, Anna M. Biller, Hannah S. Heinrichs,
+        <a
+          href="https://ingobednarek.de/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Ingo Bednarek</a>,
+        Lucien Bickerstaff, Marcelo Stegmann,
+        Maydel Fernandez-Alonso, Niloufar Tabandeh
+      </p>
+    </div>
+  
+    <div>
+      <h2>Get in touch</h2>
+  
+      <p>
+        We would love to hear from you! Do you have any questions on how light
+        affects our physiology? Anything you would like us to discuss in a future
+        episode? Send us an email to
+        <a
+          class="podcast-email"
+          href="mailto:lightoclock@tuebingen.mpg.de"
+        >lightoclock@tuebingen.mpg.de</a>.
+      </p>
+    </div>
+  
+  </section>
+
+</main>

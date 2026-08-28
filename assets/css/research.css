@@ -1,0 +1,350 @@
+.research-page {
+  max-width: 1160px;
+  padding-top: 45px;
+  padding-bottom: 125px;
+}
+
+.research-breadcrumb {
+  margin: 0 0 35px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.research-breadcrumb a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.research-page > h1 {
+  margin: 0 0 70px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 4.5vw, 4.8rem);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.research-page-content {
+  max-width: 980px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.research-page-content h2 {
+  margin: 75px 0 26px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.2rem, 3vw, 3rem);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.research-page-content h3 {
+  margin: 58px 0 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.8rem, 2.3vw, 2.4rem);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.research-page-content h4 {
+  margin: 45px 0 16px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.research-page-content p {
+  margin: 0 0 26px;
+}
+
+.research-page-content ul,
+.research-page-content ol {
+  margin: 0 0 30px;
+  padding-left: 1.5em;
+}
+
+.research-page-content li {
+  margin-bottom: 8px;
+}
+
+.research-page-content a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.research-page-image {
+  margin: 42px 0 55px;
+}
+
+.research-page-image img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  .research-page {
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }
+
+  .research-page > h1 {
+    margin-bottom: 50px;
+  }
+
+  .research-page-content {
+    font-size: 17px;
+  }
+
+  .research-page-content h2 {
+    margin-top: 58px;
+  }
+
+  .research-page-content h3 {
+    margin-top: 45px;
+  }
+}
+
+/* =====================================================
+   Research areas card alignment cleanup
+===================================================== */
+
+.research-areas-grid {
+  align-items: stretch;
+}
+
+.research-area-card {
+  display: grid;
+  grid-template-rows:
+    auto
+    minmax(72px, auto)
+    1px
+    minmax(86px, auto);
+  height: 100%;
+  text-align: center;
+}
+
+.research-area-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Keep headings aligned even when they wrap differently */
+.research-area-card h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 72px;
+  margin: 0;
+  padding: 10px 10px 8px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.18;
+  font-weight: 400;
+}
+
+/* Minimal straight divider instead of decorative underline */
+.research-area-card h3::after {
+  content: none !important;
+}
+
+/* Works whether the existing markup has an hr or border */
+.research-area-card hr {
+  width: 100%;
+  height: 1px;
+  margin: 0;
+  border: 0;
+  background: rgba(0, 0, 0, 0.72);
+}
+
+.research-area-card p {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  min-height: 86px;
+  margin: 0;
+  padding: 12px 10px 0;
+
+  font-size: 15px;
+  line-height: 1.48;
+}
+
+/* If the current divider is made with border-bottom on the heading */
+.research-area-card h3 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.72);
+}
+
+/* Prevent duplicate divider if an <hr> exists */
+.research-area-card h3 + hr {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .research-area-card {
+    grid-template-rows:
+      auto
+      minmax(64px, auto)
+      1px
+      minmax(76px, auto);
+  }
+
+  .research-area-card h3 {
+    min-height: 64px;
+  }
+
+  .research-area-card p {
+    min-height: 76px;
+  }
+}
+
+/* =====================================================
+   Research areas — clean aligned card layout
+===================================================== */
+
+.research-area-grid {
+  align-items: stretch;
+}
+
+.research-area-card {
+  display: grid;
+  grid-template-rows:
+    auto
+    76px
+    1px
+    88px;
+  height: 100%;
+  text-align: center;
+}
+
+.research-area-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Fixed title zone so all rules align */
+.research-area-card h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 10px 8px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.18;
+  font-weight: 400;
+}
+
+/* Simple minimal divider */
+.research-area-rule {
+  width: 100%;
+  height: 1px;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.72);
+}
+
+/* Descriptions all begin at the same height */
+.research-area-card p {
+  margin: 0;
+  padding: 12px 8px 0;
+
+  font-size: 15px;
+  line-height: 1.48;
+}
+
+@media (max-width: 1050px) {
+  .research-area-card {
+    grid-template-rows:
+      auto
+      70px
+      1px
+      82px;
+  }
+
+  .research-area-card h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 760px) {
+  .research-area-card {
+    grid-template-rows:
+      auto
+      auto
+      1px
+      auto;
+  }
+
+  .research-area-card h2 {
+    min-height: 62px;
+  }
+
+  .research-area-card p {
+    min-height: 72px;
+  }
+}
+
+/* Research area cards — final alignment correction */
+
+.research-area-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+}
+
+.research-area-card img {
+  flex: none;
+}
+
+/*
+ * Shared title height accommodates the longest heading.
+ * This keeps every divider aligned without clipping text.
+ */
+.research-area-card h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 82px;
+  min-height: 82px;
+
+  margin: 0;
+  padding: 8px 8px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.research-area-rule {
+  flex: none;
+  width: 100%;
+  height: 1px;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.research-area-card p {
+  margin: 0;
+  padding: 12px 9px 0;
+
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* On narrower layouts we no longer need rigid title alignment */
+@media (max-width: 760px) {
+  .research-area-card h2 {
+    height: auto;
+    min-height: 64px;
+  }
+}

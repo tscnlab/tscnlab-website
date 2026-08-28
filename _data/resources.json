@@ -1,0 +1,94 @@
+{
+  "seminar_2025": {
+    "title": "Current Topics in Visual & Circadian Neuroscience",
+    "subtitle": "Spring/summer 2025",
+    "description": "The Seminar Series \"Current Topics in Visual & Circadian Neuroscience\" is organised by the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) led by Prof. Dr. Manuel Spitschan. The 60-minute (45 min. talk + 15 min. Q&A/discussion) graduate-level seminars are free to join and take place via Zoom.",
+    "speakers": [
+      {
+        "datetime": "Monday, 28 April 2025 17:00 CEST",
+        "name": "Achim Kramer",
+        "affiliation": "Charité – Universitätsmedizin Berlin"
+      },
+      {
+        "datetime": "Monday, 5 May 2025 17:00 CEST",
+        "name": "Takuma Morimoto",
+        "affiliation": "University of Oxford"
+      },
+      {
+        "datetime": "Monday, 12 May 2025 17:00 CEST",
+        "name": "William Tuten",
+        "affiliation": "University of California, Berkeley"
+      },
+      {
+        "datetime": "Monday, 19 May 2025 17:00 CEST",
+        "name": "Lisa Ostrin",
+        "affiliation": "University of Houston"
+      },
+      {
+        "datetime": "Monday, 2 June 2025 10:00 CEST",
+        "name": "Pauline Kang",
+        "affiliation": "UNSW Sydney"
+      },
+      {
+        "datetime": "Monday, 16 June 2025 17:00 CEST",
+        "name": "Annegret Dahlmann-Noor",
+        "affiliation": "Moorfields Eye Hospital & UCL"
+      },
+      {
+        "datetime": "Monday, 23 June 2025 10:00 CEST",
+        "name": "Raymond Najjar",
+        "affiliation": "National University of Singapore"
+      },
+      {
+        "datetime": "Monday, 7 July 2025 17:00 CEST",
+        "name": "Catherine Manning",
+        "affiliation": "University of Birmingham"
+      },
+      {
+        "datetime": "Monday, 14 July 2025 17:00 CEST",
+        "name": "Kyriaki Papantoniou",
+        "affiliation": "Medical University of Vienna"
+      }
+    ],
+    "timezone": "0800 PDT | 1100 EDT | 1600 BST | 1700 CEST | 2300 SGT | 0000 JST | 0100 AEST",
+    "register_url": "https://tum-conf.zoom-x.de/meeting/register/ajFZT7TPSeWbY2kJI96DMA"
+  },
+  "seminar_2024": {
+    "title": "Current Topics in Sleep & Circadian Health",
+    "subtitle": "Non-image-forming effects of light (Spring 2024)",
+    "description": "The Seminar Series \"Current Topics in Sleep & Circadian Health\" is organised by the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) led by Prof. Dr. Manuel Spitschan. The 60-minute (45 min. talk + 15 min. Q&A/discussion) graduate-level seminars are free to join and take place via Zoom.",
+    "image": "/assets/images/resources/current-topics-sleep-circadian-health-spring-2024.png",
+    "register_url": "https://tum-conf.zoom.us/meeting/register/u5Uvc-2qrTsoHdEk9IGmELjGTcj389uwuKpc#/registration"
+  },
+  "recorded_talks": {
+    "title": "Recorded talks",
+    "description": "When we host a talk, we generally record the talk and make it available. Over time, we hope to build a free-to-watch library of cutting-edge research talks.",
+    "intro": "The following playlists aggregate the talks by talk series.",
+    "playlists": [
+      {
+        "title": "Current Topics in Sleep & Circadian Health",
+        "years": "2022–",
+        "url": "https://www.youtube.com/watch?list=PLzoZGn0-37XqNkZXJ1B6FoFiDzxyDnEID&v=n337KhGSko0",
+        "image": "/assets/images/resources/recorded-talks-1.png"
+      },
+      {
+        "title": "Hot Topics in Health Psychology",
+        "years": "2022–",
+        "url": "https://www.youtube.com/watch?list=PLzoZGn0-37XpxmGyOOEQNTA9BXm5i0Z9s&v=9dSK9a8pWQU",
+        "image": "/assets/images/resources/recorded-talks-2.jpg"
+      },
+      {
+        "title": "TUM Integrative Physiology Seminar",
+        "years": "2022–",
+        "url": "https://www.youtube.com/watch?list=PLzoZGn0-37Xrs700nHFmtzSgc1FIG46dC&v=Ls2kdxf6pG0",
+        "image": "/assets/images/resources/recorded-talks-3.png"
+      },
+      {
+        "title": "Integrative Chronobiology & Visual Neuroscience Seminar",
+        "years": "2022",
+        "url": "https://www.youtube.com/watch?list=PLzoZGn0-37XoIJCJEdQPUvTCgYB0Nx1oM&v=1HynHnVbbH8",
+        "image": "/assets/images/resources/recorded-talks-4.jpg"
+      }
+    ]
+  }
+}

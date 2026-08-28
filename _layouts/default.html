@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    >
+      <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/header.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/members.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/article.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/footer.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/news.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/mission-statement.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/research-areas.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/collaborations.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/equipment-support.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/contact.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/software.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/outreach.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/opportunities.css' | relative_url }}">
+      <link rel="stylesheet" href="{{ '/assets/css/podcast.css' | relative_url }}">
+    {% if page.page_css %}
+  <link rel="stylesheet" href="{{ page.page_css | relative_url }}">
+  {% endif %}
+<link rel="stylesheet" href="{{ '/assets/css/typography.css' | relative_url }}">
+</head>
+
+  <body>
+    {% include header.html %}
+
+    <main>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

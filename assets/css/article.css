@@ -1,0 +1,36 @@
+.article {
+  width: min(calc(100% - 110px), 980px);
+  margin-inline: auto;
+  padding: 80px 0 130px;
+}
+
+.article h1 {
+  margin: 0 0 30px;
+  font-size: clamp(2.4rem, 4vw, 4.5rem);
+  font-weight: 300;
+  line-height: 1.05;
+}
+
+.article-image {
+  width: 100%;
+  height: auto;
+  margin: 0 0 40px;
+}
+
+.prose {
+  max-width: 760px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.prose p {
+  margin: 0 0 1.4em;
+}
+
+@media (max-width: 700px) {
+  .article {
+    width: min(calc(100% - 36px), var(--max));
+    padding-top: 50px;
+    padding-bottom: 90px;
+  }
+}

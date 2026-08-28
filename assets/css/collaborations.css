@@ -1,0 +1,158 @@
+.collaborations-page {
+  padding: 0;
+}
+
+.collaborations-title {
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.collaborations-title h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.7rem, 3.6vw, 4rem);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.collaborations-content {
+  /* background: #f1f0ee; */
+  padding: 105px 0 85px;
+}
+
+.collaborations-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 110px;
+  row-gap: 65px;
+  align-items: start;
+}
+
+.collaboration-item {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 32px;
+  align-items: center;
+  min-width: 0;
+}
+
+.collaboration-visual {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+}
+
+.collaboration-visual img {
+  display: block;
+  width: 100%;
+  max-width: 190px;
+  height: auto;
+  object-fit: contain;
+}
+
+.collaboration-visual-small img {
+  max-width: 125px;
+}
+
+.collaboration-logo-stack {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.collaboration-logo-stack img {
+  width: auto;
+  max-width: 175px;
+  max-height: 55px;
+}
+
+.collaboration-text {
+  min-width: 0;
+}
+
+.collaboration-text p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.collaboration-text a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.collaboration-text strong {
+  font-weight: 600;
+}
+
+.collaboration-question img {
+  width: 100%;
+  max-width: 190px;
+  height: 88px;
+  object-fit: cover;
+}
+
+.collaboration-contact {
+  align-items: center;
+}
+
+@media (max-width: 1100px) {
+  .collaborations-grid {
+    column-gap: 60px;
+  }
+
+  .collaboration-item {
+    grid-template-columns: 145px minmax(0, 1fr);
+    gap: 26px;
+  }
+
+  .collaboration-visual img {
+    max-width: 145px;
+  }
+}
+
+@media (max-width: 800px) {
+  .collaborations-content {
+    padding-top: 70px;
+  }
+
+  .collaborations-grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .collaboration-spacer {
+    display: none;
+  }
+
+  .collaboration-item {
+    grid-template-columns: 150px minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .collaborations-title {
+    padding-top: 30px;
+    padding-bottom: 32px;
+  }
+
+  .collaborations-content {
+    padding-top: 55px;
+    padding-bottom: 65px;
+  }
+
+  .collaboration-item {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .collaboration-visual img,
+  .collaboration-visual-small img {
+    max-width: 180px;
+  }
+
+  .collaboration-text p {
+    font-size: 15px;
+  }
+}

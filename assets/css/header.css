@@ -1,0 +1,186 @@
+.site-header {
+  background: #fff;
+}
+
+.site-header-inner {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.site-logo {
+  display: block;
+  width: 380px;
+  flex-shrink: 0;
+}
+
+.site-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.site-nav a {
+  text-decoration: none;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item > a {
+  display: block;
+  padding-bottom: 14px;
+}
+
+
+@media (max-width: 1150px) {
+  .site-header-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 25px;
+  }
+
+  .site-nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-header-inner {
+    min-height: 0;
+  }
+
+  .site-logo {
+    width: min(320px, 100%);
+  }
+
+  .site-nav {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .nav-dropdown {
+    position: static;
+    padding: 8px 0 0 12px;
+  }
+}
+
+/* Team dropdown */
+
+.nav-item-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-trigger {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-arrow {
+  position: relative;
+  top: -1px;
+  font-size: 11px;
+}
+
+.nav-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: -20px;
+  z-index: 100;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+  min-width: 175px;
+  padding: 12px 0;
+
+  background: #fff;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5px);
+
+  transition:
+    opacity 0.15s ease,
+    transform 0.15s ease,
+    visibility 0.15s ease;
+}
+
+.nav-dropdown::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  right: -8px;
+  top: -12px;
+  height: 12px;
+}
+
+.nav-dropdown a {
+  display: block;
+  padding: 8px 20px;
+  white-space: nowrap;
+}
+
+.nav-item-dropdown:hover .nav-dropdown,
+.nav-item-dropdown:focus-within .nav-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.site-nav > a,
+.nav-dropdown-trigger {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+  line-height: 1;
+}
+
+.nav-item > a {
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+
+.nav-dropdown {
+  top: 100%;
+}
+
+.nav-dropdown-wide {
+  min-width: 330px;
+}
+
+/* Resources has longer labels than the other navigation dropdowns. */
+.resources-dropdown {
+  width: 390px;
+  max-width: min(390px, calc(100vw - 32px));
+}
+
+.resources-dropdown a {
+  white-space: normal;
+  line-height: 1.35;
+}
+
+.resources-dropdown a span {
+  display: block;
+  margin-top: 3px;
+  font-size: 12px;
+  opacity: 0.58;
+}

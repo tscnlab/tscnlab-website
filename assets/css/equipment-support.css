@@ -1,0 +1,83 @@
+.equipment-support-page {
+  padding-top: 42px;
+  padding-bottom: 120px;
+}
+
+.equipment-support-page h1 {
+  margin: 0 0 44px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.8rem, 4vw, 4.3rem);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.equipment-support-intro {
+  max-width: 1180px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.equipment-support-intro a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.equipment-support-intro strong {
+  font-weight: 600;
+}
+
+.equipment-support-logos {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-top: 70px;
+}
+
+.equipment-support-logo {
+  display: block;
+}
+
+.equipment-support-logo img {
+  display: block;
+  width: auto;
+  max-width: 430px;
+  max-height: 130px;
+  object-fit: contain;
+}
+
+.equipment-support-logo-wide img {
+  max-width: 620px;
+}
+
+@media (max-width: 900px) {
+  .equipment-support-logos {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 45px;
+  }
+
+  .equipment-support-logo img,
+  .equipment-support-logo-wide img {
+    max-width: min(100%, 520px);
+  }
+}
+
+@media (max-width: 650px) {
+  .equipment-support-page {
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }
+
+  .equipment-support-page h1 {
+    margin-bottom: 32px;
+  }
+
+  .equipment-support-intro {
+    font-size: 17px;
+  }
+
+  .equipment-support-logos {
+    margin-top: 50px;
+  }
+}

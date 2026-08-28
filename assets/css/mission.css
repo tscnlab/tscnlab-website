@@ -1,0 +1,15 @@
+.mission-header {
+  margin-bottom: 10px;
+}
+
+.mission-source {
+  margin-bottom: 0;
+}
+
+.mission-content {
+  margin-top: 0;
+}
+
+.mission-content > :first-child {
+  margin-top: 0;
+}

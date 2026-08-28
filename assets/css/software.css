@@ -1,0 +1,250 @@
+/* ==========================================================
+   SOFTWARE
+   ========================================================== */
+
+.software-page {
+  width: min(1500px, calc(100% - 80px));
+  margin: 0 auto;
+  padding: 75px 0 110px;
+}
+
+
+/* ---------- HEADER ---------- */
+
+.software-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 50px;
+  margin-bottom: 75px;
+}
+
+.software-header h1 {
+  margin: 0 0 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(44px, 4vw, 66px);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.software-header p {
+  margin: 0;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.software-github {
+  flex: 0 0 auto;
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #111;
+  padding-bottom: 3px;
+  font-size: 16px;
+}
+
+.software-github:hover {
+  opacity: 0.55;
+}
+
+
+/* ---------- PROJECT ---------- */
+
+.software-project {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr) 330px;
+  gap: 55px;
+  align-items: center;
+
+  padding: 70px 0;
+  border-top: 1px solid #d8d8d8;
+}
+
+
+/* ---------- LOGO ---------- */
+
+.software-project-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.software-project-logo img {
+  display: block;
+  width: 100%;
+  max-width: 155px;
+  max-height: 155px;
+  object-fit: contain;
+}
+
+
+/* ---------- TEXT ---------- */
+
+.software-project-copy {
+  max-width: 760px;
+}
+
+.software-label {
+  margin: 0 0 12px !important;
+
+  font-size: 13px !important;
+  line-height: 1 !important;
+
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  opacity: 0.55;
+}
+
+.software-project h2 {
+  margin: 0 0 24px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(34px, 3vw, 48px);
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.software-project-copy > p:not(.software-label) {
+  margin: 0;
+  max-width: 760px;
+
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.software-project-copy a {
+  color: inherit;
+}
+
+
+/* ---------- LINKS ---------- */
+
+.software-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px 26px;
+
+  margin-top: 30px;
+}
+
+.software-links a {
+  color: #111;
+  font-size: 15px;
+  line-height: 1.3;
+
+  text-decoration: none;
+  border-bottom: 1px solid #111;
+  padding-bottom: 3px;
+}
+
+.software-links a:hover {
+  opacity: 0.55;
+}
+
+
+/* ---------- SCREENSHOT ---------- */
+
+.software-project-image {
+  display: block;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.software-project-image:hover {
+  transform: translateY(-3px);
+  opacity: 0.85;
+}
+
+.software-project-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 290px;
+  object-fit: contain;
+}
+
+
+/* ==========================================================
+   TABLET
+   ========================================================== */
+
+@media (max-width: 1100px) {
+
+  .software-page {
+    width: min(100% - 50px, 1100px);
+  }
+
+  .software-project {
+    grid-template-columns: 130px minmax(0, 1fr);
+    gap: 35px 45px;
+  }
+
+  .software-project-logo img {
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .software-project-image {
+    grid-column: 2;
+    max-width: 500px;
+  }
+}
+
+
+/* ==========================================================
+   MOBILE
+   ========================================================== */
+
+@media (max-width: 700px) {
+
+  .software-page {
+    width: calc(100% - 36px);
+    padding-top: 45px;
+  }
+
+  .software-header {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .software-header h1 {
+    font-size: 42px;
+  }
+
+  .software-header p {
+    font-size: 18px;
+  }
+
+  .software-github {
+    display: inline-block;
+    margin-top: 25px;
+  }
+
+  .software-project {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 50px 0;
+  }
+
+  .software-project-logo {
+    justify-content: flex-start;
+  }
+
+  .software-project-logo img {
+    max-width: 110px;
+    max-height: 110px;
+  }
+
+  .software-project-image {
+    grid-column: 1;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .software-project h2 {
+    font-size: 36px;
+  }
+
+  .software-project-copy > p:not(.software-label) {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+}
