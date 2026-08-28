@@ -348,3 +348,32 @@
     min-height: 64px;
   }
 }
+
+/* Responsive research-area layout */
+
+@media (max-width: 1050px) {
+  .research-area-grid,
+  .research-areas-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .research-area-grid,
+  .research-areas-grid {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .research-area-card h2,
+  .research-area-card h3 {
+    height: auto;
+    min-height: 0;
+    padding: 14px 8px;
+  }
+
+  .research-area-card p {
+    min-height: 0;
+    padding-top: 14px;
+  }
+}

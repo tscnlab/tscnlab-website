@@ -193,3 +193,28 @@
     gap: 70px;
   }
 }
+
+/* Responsive research-area cards */
+
+@media (max-width: 1050px) {
+  .research-area-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .research-area-grid {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .research-area-card h2 {
+    min-height: 0;
+    height: auto;
+  }
+
+  .research-area-card p {
+    min-height: 0;
+  }
+}
