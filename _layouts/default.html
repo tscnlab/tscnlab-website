@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
 
     <title>{{ page.title | default: site.title }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,5 +43,6 @@
     </main>
 
     {% include footer.html %}
-  </body>
+    <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+</body>
 </html>

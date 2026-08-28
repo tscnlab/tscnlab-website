@@ -276,3 +276,11 @@
     width: min(330px, calc(100vw - 32px));
   }
 }
+
+@media (max-width: 700px) {
+  .nav-item-dropdown.is-open .nav-dropdown {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+  }
+}
