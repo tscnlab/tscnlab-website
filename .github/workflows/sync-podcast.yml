@@ -1,0 +1,35 @@
+name: Sync podcast
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: podcast-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Refresh episode catalog
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: python3 scripts/sync_podcast.py
+      - name: Open or update podcast PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/podcast-sync
+          base: main
+          title: Update Light O’Clock episode catalog
+          commit-message: Update Light O’Clock episode catalog
+          body: Refresh episode data and listening links from the podcast catalogs.
+          add-paths: _data/podcast_episodes.json
+          delete-branch: true

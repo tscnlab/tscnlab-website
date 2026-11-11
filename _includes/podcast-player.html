@@ -1,0 +1,14 @@
+{% assign entry = include.entry %}
+<audio class="podcast-player" controls preload="none" src="{{ entry.audio | escape }}" aria-label="Play {{ entry.title | escape }}">
+  <a href="{{ entry.audio | escape }}">Listen to the episode</a>
+</audio>
+{% if entry.spotify or entry.apple %}
+  <div class="podcast-listen-links">
+    {% if entry.spotify %}
+      <a href="{{ entry.spotify | escape }}" aria-label="{{ entry.title | escape }} on Spotify">Spotify</a>
+    {% endif %}
+    {% if entry.apple %}
+      <a href="{{ entry.apple | escape }}" aria-label="{{ entry.title | escape }} on Apple Podcasts">Apple Podcasts</a>
+    {% endif %}
+  </div>
+{% endif %}

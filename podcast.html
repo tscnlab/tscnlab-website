@@ -7,6 +7,7 @@ permalink: /podcast/
 <div id="top"></div>
 
 {% assign podcast = site.data.podcast %}
+{% assign catalog = site.data.podcast_episodes %}
 
 <main class="podcast-page shell">
 
@@ -50,26 +51,27 @@ permalink: /podcast/
 
 
     <div class="podcast-trailers">
-      {% for trailer in podcast.trailers %}
+      {% for trailer in catalog.trailers %}
         <article class="podcast-trailer">
 
-          {% if trailer.artwork %}
+          {% if trailer.image %}
             <img
               class="podcast-trailer-artwork"
-              src="{{ trailer.artwork | relative_url }}"
-              alt="{{ trailer.title }}"
+              src="{{ trailer.image | escape }}"
+              alt=""
+              loading="lazy"
+              width="300"
+              height="300"
             >
           {% endif %}
 
           <div class="podcast-trailer-player">
             <div class="podcast-trailer-label">
-              <span>{{ trailer.title }}</span>
+              <span>{{ trailer.title | escape }}</span>
               <small>Light O'Clock</small>
             </div>
 
-            <audio controls preload="metadata">
-              <source src="{{ trailer.audio | relative_url }}" type="audio/mpeg">
-            </audio>
+            {% include podcast-player.html entry=trailer %}
           </div>
 
         </article>
@@ -87,7 +89,7 @@ permalink: /podcast/
     </header>
 
 
-    {% for group in podcast.episode_groups %}
+    {% for group in catalog.episode_groups %}
 
       <section class="podcast-season">
 
@@ -109,37 +111,19 @@ permalink: /podcast/
           {% for episode in group.episodes %}
             <article class="podcast-card">
 
-              {% if episode.url %}
-                <a
+              {% if episode.image %}
+                <img
                   class="podcast-card-image"
-                  href="{{ episode.url }}"
+                  src="{{ episode.image | escape }}"
+                  alt=""
+                  loading="lazy"
+                  width="300"
+                  height="300"
                 >
-              {% else %}
-                <div class="podcast-card-image">
               {% endif %}
 
-                  {% if episode.image %}
-                    <img
-                      src="{{ episode.image | relative_url }}"
-                      alt="{{ episode.title }}"
-                    >
-                  {% endif %}
-
-              {% if episode.url %}
-                </a>
-              {% else %}
-                </div>
-              {% endif %}
-
-              <h4>
-                {% if episode.url %}
-                  <a href="{{ episode.url }}">
-                    {{ episode.title }}
-                  </a>
-                {% else %}
-                  {{ episode.title }}
-                {% endif %}
-              </h4>
+              <h4>{{ episode.title | escape }}</h4>
+              {% include podcast-player.html entry=episode %}
 
             </article>
           {% endfor %}

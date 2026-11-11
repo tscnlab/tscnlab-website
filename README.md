@@ -81,15 +81,20 @@ The script updates the local content in `_mission/`.
 
 ## Podcast
 
-Podcast content is maintained in:
+Edit `_data/podcast.yml` for the show description and platform links. The episode
+catalog in `_data/podcast_episodes.json` is generated from the Light O’Clock feed.
+Episode artwork and audio are served by the podcast host.
 
-```text
-_data/podcast.json
-```
+Run the **Sync podcast** workflow from the repository’s Actions tab. It opens or
+updates a pull request when the catalog changes. Merging the PR deploys the site
+through the Pages workflow. Enable GitHub Actions to create pull requests in the
+repository settings. To sync Spotify links, set `SPOTIFY_CLIENT_ID` and
+`SPOTIFY_CLIENT_SECRET` as repository Actions secrets. If app ownership changes,
+replace those secrets with credentials from the successor’s Spotify Developer app.
 
-Podcast images are stored in `assets/images/podcast/` and locally hosted audio files in `assets/audio/podcast/`.
-
-`scripts/sync_podcast.py` was used for the original Squarespace migration and should not normally be rerun when adding or editing podcast content.
+For a local check, run `python3 scripts/sync_podcast.py --dry-run`. Remove
+`--dry-run` to regenerate the catalog, then run `bundle exec jekyll serve`.
+Use `--feed`, `--apple`, and `--spotify` with saved responses for an offline run.
 
 ## Resources
 

@@ -1,0 +1,333 @@
+{
+  "trailers": [
+    {
+      "id": "pod-006e1ea427fb30a76ef4da605d8",
+      "title": "Season 4 – Trailer",
+      "date": "2026-06-17",
+      "image": "https://files.pdcstrcdn.de/c/h0w4bp/i/1671348/f/lightoclock-s04-png(1).jpg",
+      "audio": "https://tscnunit.podcaster.eu/lightoclock/media/light_o-clock_-_season_4_-_trailer_(no_credits)-ready.mp3",
+      "spotify": "https://open.spotify.com/episode/4BqKWHBQUft59wzfMhvZKr",
+      "apple": "https://podcasts.apple.com/us/podcast/season-4-trailer/id1732012771?i=1000773130639&uo=4"
+    },
+    {
+      "id": "pod-67d6ee6e74429140902106",
+      "title": "Season 3 – Trailer",
+      "date": "2025-03-18",
+      "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062483/f/lightoclock-s03.jpg",
+      "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock_s03-trailer.mp3",
+      "spotify": "https://open.spotify.com/episode/3WmKV0fiB0Y3gi5RvCDj48",
+      "apple": "https://podcasts.apple.com/us/podcast/season-3-trailer/id1732012771?i=1000699644618&uo=4"
+    },
+    {
+      "id": "pod-66d18686367d2138827461",
+      "title": "Season 2 – Trailer",
+      "date": "2024-08-30",
+      "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062451/f/light_o-clock-s02.jpg",
+      "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s02_trailer.mp3",
+      "spotify": "https://open.spotify.com/episode/5HbakZ5jRAHB5Yq0NPiqBW",
+      "apple": "https://podcasts.apple.com/us/podcast/season-2-trailer/id1732012771?i=1000667307521&uo=4"
+    },
+    {
+      "id": "pod-19d4a6c131adfc0f4d8b196639",
+      "title": "Season 1 – Trailer",
+      "date": "2024-02-20",
+      "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062460/f/lightoclock-s01.jpg",
+      "audio": "https://tscnunit.podcaster.eu/lightoclock/media/light-clock-s01_trailer.mp3",
+      "spotify": "https://open.spotify.com/episode/09DC0Sn28mOhZiDY1qJYBx",
+      "apple": "https://podcasts.apple.com/us/podcast/trailer/id1732012771?i=1000645991992&uo=4"
+    }
+  ],
+  "episode_groups": [
+    {
+      "name": "Season 4",
+      "episodes": [
+        {
+          "id": "pod-b6d19f08a98a7d5922488bde6f8",
+          "title": "Episode 1: Why biological timing matters in medicine",
+          "date": "2026-07-01",
+          "image": "https://files.pdcstrcdn.de/f/h0w4bp/i/1679635/f/lightoclock-s04e01.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/light_o-clock_-_season_4_-_episode_1_-_new_credits-ready(1).mp3",
+          "spotify": "https://open.spotify.com/episode/4VTHrtScAnjh6pMxrbncHR",
+          "apple": "https://podcasts.apple.com/us/podcast/season-4-episode-1-why-biological-timing-matters-in/id1732012771?i=1000774963701&uo=4"
+        },
+        {
+          "id": "pod-75e8108d5b24783e8310e230d41",
+          "title": "Episode 2: The best time for a vaccine? Circadian rhythms and immunity",
+          "date": "2026-07-29",
+          "image": "https://files.pdcstrcdn.de/f/h0w4bp/i/1708264/f/lightoclock-s04e02.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/light_o-clock_-_season_4_-_episode_2-ready_(1).mp3",
+          "spotify": "https://open.spotify.com/episode/4vkUTkQBKzO7iPlIQJfJps",
+          "apple": "https://podcasts.apple.com/us/podcast/season-4-episode-2-the-best-time-for-a/id1732012771?i=1000778851413&uo=4"
+        },
+        {
+          "id": "pod-8b09973ef7af0923c22ae87d9",
+          "title": "Episode 3: Light therapy in cancer care",
+          "date": "2026-09-29",
+          "image": "https://files.pdcstrcdn.de/f/h0w4bp/i/1759600/f/lightoclock-s04e03.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/light_o-clock_-_season_4_-_episode_3_ready.mp3",
+          "spotify": "https://open.spotify.com/episode/6hfWydRLc8kjhvcbm8duVd",
+          "apple": "https://podcasts.apple.com/us/podcast/season-4-episode-3-light-therapy-in-cancer-care/id1732012771?i=1000792135617&uo=4"
+        },
+        {
+          "id": "pod-656ad04a12397690",
+          "title": "Episode 4: Lighting in the first days of life – Circadian care in neonatal units",
+          "date": "2026-10-13",
+          "image": "https://files.pdcstrcdn.de/f/h0w4bp/i/1773830/f/lightoclock-s04e04.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/light_o-clock_-_season_4_-_episode_4-v2_ready.mp3",
+          "spotify": "https://open.spotify.com/episode/69tAvIAOeCRrHusWxLAZqM",
+          "apple": "https://podcasts.apple.com/us/podcast/season-4-episode-4-lighting-in-the-first-days-of/id1732012771?i=1000796121138&uo=4"
+        },
+        {
+          "id": "pod-6ae0be2e357c9572251267",
+          "title": "Episode 5: When we eat matters – food, metabolism, and the body clock",
+          "date": "2026-10-29",
+          "image": "https://files.pdcstrcdn.de/c/h0w4bp/i/1793863/f/lightoclock-s04e05.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/light_o-clock_-_s4e5_v2-ready.mp3",
+          "spotify": "https://open.spotify.com/episode/72qN76euKjufl6Ll0fAtZF",
+          "apple": "https://podcasts.apple.com/us/podcast/season-4-episode-5-when-we-eat-matters-food-metabolism/id1732012771?i=1000798680156&uo=4"
+        }
+      ]
+    },
+    {
+      "name": "Season 3",
+      "episodes": [
+        {
+          "id": "pod-67dd1dd0f01f0275488453",
+          "title": "Episode 1: Tick-tock trouble – How clock changes affect our health",
+          "date": "2025-03-25",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062484/f/lightoclock-s03e01.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock_s03e01.mp3",
+          "spotify": "https://open.spotify.com/episode/0tOU4zpFDEfItgLE1buM0y",
+          "apple": "https://podcasts.apple.com/us/podcast/season-3-episode-1-tick-tock-trouble-how-clock-changes/id1732012771?i=1000700750638&uo=4"
+        },
+        {
+          "id": "pod-680fdd553cb9e601100040",
+          "title": "Episode 2: City lights, country nights – Circadian rhythms in urban and rural life",
+          "date": "2025-04-29",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062485/f/lightoclock-s03e02(1).jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock_s03e02.mp3",
+          "spotify": "https://open.spotify.com/episode/33iYYA1Q1nuU6KeEzzLIlC",
+          "apple": "https://podcasts.apple.com/us/podcast/season-3-episode-2-city-lights-country-nights-circadian/id1732012771?i=1000705390418&uo=4"
+        },
+        {
+          "id": "pod-2f3b625621e7c850f8754728ac48",
+          "title": "Episode 3: Blurred vision – The myopia epidemic and indoor lifestyles",
+          "date": "2025-05-29",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062488/f/lightoclock-s03e03.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock_s03e03.mp3",
+          "spotify": "https://open.spotify.com/episode/4Q8bl9GlzyEIo5FumVBftE",
+          "apple": "https://podcasts.apple.com/us/podcast/season-3-episode-3-blurred-vision-the-myopia-epidemic/id1732012771?i=1000714341797&uo=4"
+        },
+        {
+          "id": "pod-1a3f4ef767b5d0b47397ab515e8",
+          "title": "Episode 4: Too early to think? Why school start times matter for sleep and learning",
+          "date": "2025-07-29",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1301626/f/lightoclock-s03e04.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/light_o-clock_s3e4-ready.mp3",
+          "spotify": "https://open.spotify.com/episode/24dELX8mTnd5jQxXIycRMY",
+          "apple": "https://podcasts.apple.com/us/podcast/season-3-episode-4-too-early-to-think-why-school-start/id1732012771?i=1000719625170&uo=4"
+        },
+        {
+          "id": "pod-68adf37bef8bb459309828",
+          "title": "Episode 5: Drowning in light – The hidden costs of light pollution",
+          "date": "2025-08-26",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1324312/f/lightoclock-s03e05.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock_s03e05.mp3",
+          "spotify": "https://open.spotify.com/episode/4MnXmJWCwM8y1F0g9S4qd1",
+          "apple": "https://podcasts.apple.com/us/podcast/season-3-episode-5-drowning-in-light-the-hidden-costs/id1732012771?i=1000723624489&uo=4"
+        }
+      ]
+    },
+    {
+      "name": "Season 2",
+      "episodes": [
+        {
+          "id": "pod-66d5af8a9d5e7140851956",
+          "title": "Episode 1: Cave studies and fruit flies – the history of chronobiology",
+          "date": "2024-09-03",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062452/f/light_o-clock-s02e01_guest(1).jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s02e01.mp3",
+          "spotify": "https://open.spotify.com/episode/20MwnCiM6dmLED8ply5EBS",
+          "apple": "https://podcasts.apple.com/us/podcast/season-2-episode-1-cave-studies-and-fruit-flies/id1732012771?i=1000668159024&uo=4"
+        },
+        {
+          "id": "pod-66e34b9177a8a614829960",
+          "title": "Episode 2: Sleep and circadian rhythms – same or different?",
+          "date": "2024-09-17",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062454/f/light_o-clock-s02e02_guest.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s02e02.mp3",
+          "spotify": "https://open.spotify.com/episode/0Jq9WhWQgv1MtnanZP0VyE",
+          "apple": "https://podcasts.apple.com/us/podcast/season-2-episode-2-sleep-and-circadian-rhythms-same/id1732012771?i=1000669800864&uo=4"
+        },
+        {
+          "id": "pod-66e34c8fe3925589368164",
+          "title": "Episode 3: Early birds and night owls – what is chronotype?",
+          "date": "2024-10-01",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062455/f/light_o-clock-s02e03_guest(1).jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s02e03(3).mp3",
+          "spotify": "https://open.spotify.com/episode/3QbWIWVptoZPY0mRuFDzpT",
+          "apple": "https://podcasts.apple.com/us/podcast/season-2-episode-3-early-birds-and-night-owls-what-is/id1732012771?i=1000671403514&uo=4"
+        },
+        {
+          "id": "pod-670bd70b377ad535706503",
+          "title": "Episode 4: In and out of sync",
+          "date": "2024-10-15",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062457/f/light_o-clock-s02e04_guest.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s02e04.mp3",
+          "spotify": "https://open.spotify.com/episode/3ANU00uqnkCSTYjR6sBCUV",
+          "apple": "https://podcasts.apple.com/us/podcast/season-2-episode-4-in-and-out-of-sync/id1732012771?i=1000673161768&uo=4"
+        },
+        {
+          "id": "pod-671e7688b2c8e483810785",
+          "title": "Episode 5: Shedding light on… circadian rhythms and mental health",
+          "date": "2024-10-29",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062458/f/light_o-clock-s02e05_guest.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s02e05.mp3",
+          "spotify": "https://open.spotify.com/episode/2Z9jlY233QkA4m1jU2YsKS",
+          "apple": "https://podcasts.apple.com/us/podcast/season-2-episode-5-shedding-light-on-circadian-rhythms/id1732012771?i=1000674849795&uo=4"
+        }
+      ]
+    },
+    {
+      "name": "Season 1",
+      "episodes": [
+        {
+          "id": "lightoclock-s01e01",
+          "title": "Episode 1: Light exposure – why should we care?",
+          "date": "2024-03-05",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062461/f/lightoclock-s01e01.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s01e01.mp3",
+          "spotify": "https://open.spotify.com/episode/0FW3xatGTgKmQKdD2pxIkv",
+          "apple": "https://podcasts.apple.com/us/podcast/episode-1-light-exposure-why-should-we-care/id1732012771?i=1000648067986&uo=4"
+        },
+        {
+          "id": "lightoclock-s01e02",
+          "title": "Episode 2: Light’s journey through the eye",
+          "date": "2024-03-19",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062463/f/lightoclock-s01e02.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s01e02.mp3",
+          "spotify": "https://open.spotify.com/episode/1U9glmCs6EtaoWFsN8BxIo",
+          "apple": "https://podcasts.apple.com/us/podcast/episode-2-lights-journey-through-the-eye/id1732012771?i=1000649704127&uo=4"
+        },
+        {
+          "id": "lightoclock-s01e03",
+          "title": "Episode 3: Using light to tell time",
+          "date": "2024-04-02",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062465/f/lightoclock-s01e03.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s01e03.mp3",
+          "spotify": "https://open.spotify.com/episode/4zeTr8hEvQ2W7GbtPZr1sF",
+          "apple": "https://podcasts.apple.com/us/podcast/episode-3-using-light-to-tell-time/id1732012771?i=1000651175881&uo=4"
+        },
+        {
+          "id": "lightoclock-s01e04",
+          "title": "Episode 4: Melatonin – the night time hormone",
+          "date": "2024-04-16",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062467/f/lightoclock-s01e04.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s01e04.mp3",
+          "spotify": "https://open.spotify.com/episode/544s5Kwjo0wzzzKuPIWsLh",
+          "apple": "https://podcasts.apple.com/us/podcast/episode-4-melatonin-the-night-time-hormone/id1732012771?i=1000652603862&uo=4"
+        },
+        {
+          "id": "lightoclock-s01e05",
+          "title": "Episode 5: Shedding light on… pupil size across the lifespan",
+          "date": "2024-04-30",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062469/f/lightoclock-s01e05.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s01e05.mp3",
+          "spotify": "https://open.spotify.com/episode/057u6VvlKpUZjbeMUO7ezv",
+          "apple": "https://podcasts.apple.com/us/podcast/episode-5-shedding-light-on-pupil-size-across-the-lifespan/id1732012771?i=1000654037709&uo=4"
+        },
+        {
+          "id": "pod-d26343b5d4d22aafdb5c0c1d99",
+          "title": "Episode 6: You ask, we answer – special Q&A episode",
+          "date": "2024-05-16",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062471/f/lightoclock-s01e06-square_2.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-s01e06.mp3",
+          "spotify": "https://open.spotify.com/episode/2eHW5tllLBiFWNTxJuHkDP",
+          "apple": "https://podcasts.apple.com/us/podcast/episode-6-you-ask-we-answer-special-q-a-episode/id1732012771?i=1000655784482&uo=4"
+        }
+      ]
+    },
+    {
+      "name": "Spotlights & Live",
+      "episodes": [
+        {
+          "id": "pod-670bdfbd11e3b761669835",
+          "title": "Spotlight: The dark side of daylight (Daylight Awareness Week 2024)",
+          "date": "2024-10-31",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062489/f/lightoclock-spotlight-dla-halloween.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-spotlight-dla-halloween.mp3",
+          "spotify": "https://open.spotify.com/episode/3XJDGnnvLLpKjd8usGmXC3",
+          "apple": "https://podcasts.apple.com/us/podcast/spotlight-the-dark-side-of-daylight-special/id1732012771?i=1000675193557&uo=4"
+        },
+        {
+          "id": "pod-67bb322f3eb7c984938335",
+          "title": "Spotlight: Research, rooted in reality – The power of lived experience in scientific studies",
+          "date": "2025-02-25",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1062493/f/lightoclock-spotlight-livedexperience.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock-spotlight-livedexperience.mp3",
+          "spotify": "https://open.spotify.com/episode/52caTZebU1Zgu06vWmZ0Vj",
+          "apple": "https://podcasts.apple.com/us/podcast/spotlight-research-rooted-in-reality-the-power-of/id1732012771?i=1000695843912&uo=4"
+        },
+        {
+          "id": "pod-10544e3858f2d8b27c2cb2b4e9d8",
+          "title": "Light O'Clock goes live: Send us your questions!",
+          "date": "2025-10-21",
+          "image": "https://files.pdcstrcdn.de/a/h0w4bp/i/1374356/f/lightoclock-2025-live(1).png",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/light_o-clock_-_Buch_Wien_2025-ready(1).mp3",
+          "spotify": "https://open.spotify.com/episode/6y6jOvsy4kInUsDnIeUTj3",
+          "apple": "https://podcasts.apple.com/us/podcast/light-oclock-goes-live-send-us-your-questions/id1732012771?i=1000732778245&uo=4"
+        },
+        {
+          "id": "pod-ee1d80ce97c99807e4045261f5c8",
+          "title": "Spotlight – Winter blues: SAD and how to winter well",
+          "date": "2026-01-27",
+          "image": "https://files.pdcstrcdn.de/h/h0w4bp/i/1458534/f/light_o-clock-28.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock_spotlight_sad(1).mp3",
+          "spotify": "https://open.spotify.com/episode/38Q6oe1ZwRG5QG0HUfOMyL",
+          "apple": "https://podcasts.apple.com/us/podcast/spotlight-winter-blues-sad-and-how-to-winter-well/id1732012771?i=1000746843747&uo=4"
+        },
+        {
+          "id": "pod-df16994ea731a8557f26a02265a",
+          "title": "Live episode – Night owl or early riser? A live podcast episode",
+          "date": "2026-02-10",
+          "image": "https://files.pdcstrcdn.de/h/h0w4bp/i/1479780/f/lightoclock-live-vienna_(1).jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/lightoclock_buchwien_spotlight.mp3",
+          "spotify": "https://open.spotify.com/episode/2e3OexCgtZwHbbnC3D52wQ",
+          "apple": "https://podcasts.apple.com/us/podcast/light-oclock-live-episode-night-owl-or-early-riser/id1732012771?i=1000749107442&uo=4"
+        }
+      ]
+    },
+    {
+      "name": "Interacting with Daylight",
+      "episodes": [
+        {
+          "id": "pod-087030eb9eeec7507425c6ffec8",
+          "title": "Interacting with Daylight Mini-Series – Episode 1: Geolocation",
+          "date": "2026-03-17",
+          "image": "https://files.pdcstrcdn.de/c/h0w4bp/i/1597810/f/light_o-clock-8-Episode_1.jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/dla-miniseries-ep01(2).mp3",
+          "spotify": "https://open.spotify.com/episode/5hN7dEqTLiGtMJDbT1wPn8",
+          "apple": "https://podcasts.apple.com/us/podcast/interacting-with-daylight-mini-series-episode-1/id1732012771?i=1000755758499&uo=4"
+        },
+        {
+          "id": "pod-69d4e7f4ce62a755450296",
+          "title": "Interacting with Daylight Mini-Series – Episode 2: Culture & behaviour",
+          "date": "2026-04-07",
+          "image": "https://files.pdcstrcdn.de/c/h0w4bp/i/1614655/f/light_o-clock-9-Episode_1_(1).jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/light_o-clock_-_Daylight_Interaction_Project_-_Episode2_-_ready_final(1).mp3",
+          "spotify": "https://open.spotify.com/episode/2XFU1wtbpzubJtZ5PI4i7E",
+          "apple": "https://podcasts.apple.com/us/podcast/interacting-with-daylight-mini-series-episode-2/id1732012771?i=1000760029521&uo=4"
+        },
+        {
+          "id": "pod-a46e1e89e4479f363958a67b9a",
+          "title": "Interacting with Daylight Mini-Series – Episode 3: Built environment",
+          "date": "2026-05-13",
+          "image": "https://files.pdcstrcdn.de/c/h0w4bp/i/1643735/f/light_o-clock-10-Episode_1_(1).jpg",
+          "audio": "https://tscnunit.podcaster.eu/lightoclock/media/light_o-clock_-_Daylight_Interaction_Project_-_Episode_3-ready.mp3",
+          "spotify": "https://open.spotify.com/episode/0FamZjHY8zbL6gBkn7PzsN",
+          "apple": "https://podcasts.apple.com/us/podcast/interacting-with-daylight-mini-series-episode-3-built/id1732012771?i=1000767544875&uo=4"
+        }
+      ]
+    }
+  ]
+}
