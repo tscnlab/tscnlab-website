@@ -8,6 +8,8 @@ source_url: "https://www.tscnlab.org/news/2023-seminar-series"
 image: "/assets/images/news/2023-seminar-series-featured-01.jpg"
 ---
 
+<p class="draft-notice">Archived announcement for autumn 2023 / winter 2024. This edition has ended. <a href="{{ '/seminar/' | relative_url }}">Browse the seminar series, other programmes and recordings.</a></p>
+
 <figure class="article-figure">
   <img src="{{ '/assets/images/news/2023-seminar-series-inline-01.jpg' | relative_url }}" alt="01_Cover_1.jpg">
 </figure>

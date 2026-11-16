@@ -9,6 +9,7 @@
   {% endif %}
 
   <div class="news-list-content">
+    {% if post.published == false %}<p class="draft-badge">Draft</p>{% endif %}
     <time
       class="news-list-date"
       datetime="{{ post.date | date_to_xmlschema }}"

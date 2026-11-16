@@ -7,10 +7,10 @@ page_css: /assets/css/resources.css
 
 {% assign talks = site.data.resources.recorded_talks %}
 
-<main class="resource-page recorded-talks-page">
+<main class="resource-page recorded-talks-page" id="top">
 
   <nav class="resource-breadcrumb" aria-label="Breadcrumb">
-    <span>Resources</span>
+    <a href="{{ '/resources/' | relative_url }}">Resources</a>
     <span aria-hidden="true">›</span>
     <span>Recorded talks</span>
   </nav>
@@ -49,6 +49,11 @@ page_css: /assets/css/resources.css
       </a>
     {% endfor %}
 
+  </section>
+
+  <section class="resource-section">
+    <h2>LightLogR webinar and course</h2>
+    <p>For practical training, explore the <a class="resource-text-link" href="https://tscnlab.github.io/LightLogR_webinar/" target="_blank" rel="noopener noreferrer">complete LightLogR course ↗</a> and its <a class="resource-text-link" href="https://tscnlab.github.io/LightLogR_webinar/recordings.html" target="_blank" rel="noopener noreferrer">webinar recordings ↗</a>.</p>
   </section>
 
 </main>

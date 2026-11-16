@@ -8,6 +8,8 @@ source_url: "https://www.tscnlab.org/news/lightlogr-announcement"
 image: "/assets/images/news/lightlogr-announcement-featured-01.png"
 ---
 
+<p class="draft-notice">This is the original June 2024 announcement. For current releases and features, see the <a href="https://tscnlab.github.io/LightLogR/">LightLogR documentation</a>. The <a href="https://tscnlab.github.io/LightLogR_webinar/">webinar and course</a> provide tutorials and recordings. The survey and prize invitation below belong to the original announcement.</p>
+
 <p>Introducing LightLogR, an open-source R package for the analysis of personal light exposure data</p>
 
 <figure class="article-figure">
@@ -24,7 +26,7 @@ image: "/assets/images/news/lightlogr-announcement-featured-01.png"
 
 <p>LightLogR is licensed under the GPL-3.0 license . The codebase is available from GitHub: https://github.com/tscnlab/LightLogR</p>
 
-<p>Current version: 0.3.7 ("Astronomical dawn")</p>
+<p>Version at the time of this announcement: 0.3.7 ("Astronomical dawn")</p>
 
 <p>Documentation: https://tscnlab.github.io/LightLogR/</p>
 

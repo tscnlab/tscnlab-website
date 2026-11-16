@@ -2,7 +2,7 @@
   "seminar_2025": {
     "title": "Current Topics in Visual & Circadian Neuroscience",
     "subtitle": "Spring/summer 2025",
-    "description": "The Seminar Series \"Current Topics in Visual & Circadian Neuroscience\" is organised by the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) led by Prof. Dr. Manuel Spitschan. The 60-minute (45 min. talk + 15 min. Q&A/discussion) graduate-level seminars are free to join and take place via Zoom.",
+    "description": "The Seminar Series \"Current Topics in Visual & Circadian Neuroscience\" was organised by the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) led by Prof. Dr. Manuel Spitschan. The 60-minute (45 min. talk + 15 min. Q&A/discussion) graduate-level seminars were free to join and took place via Zoom.",
     "speakers": [
       {
         "datetime": "Monday, 28 April 2025 17:00 CEST",
@@ -49,44 +49,41 @@
         "name": "Kyriaki Papantoniou",
         "affiliation": "Medical University of Vienna"
       }
-    ],
-    "timezone": "0800 PDT | 1100 EDT | 1600 BST | 1700 CEST | 2300 SGT | 0000 JST | 0100 AEST",
-    "register_url": "https://tum-conf.zoom-x.de/meeting/register/ajFZT7TPSeWbY2kJI96DMA"
+    ]
   },
   "seminar_2024": {
     "title": "Current Topics in Sleep & Circadian Health",
     "subtitle": "Non-image-forming effects of light (Spring 2024)",
-    "description": "The Seminar Series \"Current Topics in Sleep & Circadian Health\" is organised by the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) led by Prof. Dr. Manuel Spitschan. The 60-minute (45 min. talk + 15 min. Q&A/discussion) graduate-level seminars are free to join and take place via Zoom.",
-    "image": "/assets/images/resources/current-topics-sleep-circadian-health-spring-2024.png",
-    "register_url": "https://tum-conf.zoom.us/meeting/register/u5Uvc-2qrTsoHdEk9IGmELjGTcj389uwuKpc#/registration"
+    "description": "The Seminar Series \"Current Topics in Sleep & Circadian Health\" was organised by the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) led by Prof. Dr. Manuel Spitschan. The 60-minute (45 min. talk + 15 min. Q&A/discussion) graduate-level seminars were free to join and took place via Zoom.",
+    "image": "/assets/images/resources/current-topics-sleep-circadian-health-spring-2024.png"
   },
   "recorded_talks": {
     "title": "Recorded talks",
-    "description": "When we host a talk, we generally record the talk and make it available. Over time, we hope to build a free-to-watch library of cutting-edge research talks.",
-    "intro": "The following playlists aggregate the talks by talk series.",
+    "description": "Watch research talks hosted by the unit across several seminar series. Recordings are shared with speakers’ permission.",
+    "intro": "Browse the series archives below.",
     "playlists": [
       {
         "title": "Current Topics in Sleep & Circadian Health",
-        "years": "2022–",
-        "url": "https://www.youtube.com/watch?list=PLzoZGn0-37XqNkZXJ1B6FoFiDzxyDnEID&v=n337KhGSko0",
+        "years": "Recordings from 2022 onwards",
+        "url": "https://www.youtube.com/playlist?list=PLzoZGn0-37XqNkZXJ1B6FoFiDzxyDnEID",
         "image": "/assets/images/resources/recorded-talks-1.png"
       },
       {
         "title": "Hot Topics in Health Psychology",
-        "years": "2022–",
-        "url": "https://www.youtube.com/watch?list=PLzoZGn0-37XpxmGyOOEQNTA9BXm5i0Z9s&v=9dSK9a8pWQU",
+        "years": "Recordings from 2022 onwards",
+        "url": "https://www.youtube.com/playlist?list=PLzoZGn0-37XpxmGyOOEQNTA9BXm5i0Z9s",
         "image": "/assets/images/resources/recorded-talks-2.jpg"
       },
       {
         "title": "TUM Integrative Physiology Seminar",
-        "years": "2022–",
-        "url": "https://www.youtube.com/watch?list=PLzoZGn0-37Xrs700nHFmtzSgc1FIG46dC&v=Ls2kdxf6pG0",
+        "years": "Recordings from 2022 onwards",
+        "url": "https://www.youtube.com/playlist?list=PLzoZGn0-37Xrs700nHFmtzSgc1FIG46dC",
         "image": "/assets/images/resources/recorded-talks-3.png"
       },
       {
         "title": "Integrative Chronobiology & Visual Neuroscience Seminar",
         "years": "2022",
-        "url": "https://www.youtube.com/watch?list=PLzoZGn0-37XoIJCJEdQPUvTCgYB0Nx1oM&v=1HynHnVbbH8",
+        "url": "https://www.youtube.com/playlist?list=PLzoZGn0-37XoIJCJEdQPUvTCgYB0Nx1oM",
         "image": "/assets/images/resources/recorded-talks-4.jpg"
       }
     ]

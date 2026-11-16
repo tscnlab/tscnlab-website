@@ -233,3 +233,21 @@
     text-align: left;
   }
 }
+.draft-badge {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 3px 10px;
+  border: 1px solid #9d8550;
+  color: #635122;
+  background: #faf6e9;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.draft-notice {
+  padding: 14px 18px;
+  margin: 0 0 24px;
+  border-left: 3px solid #9d8550;
+  background: #faf6e9;
+  font-size: 16px;
+}

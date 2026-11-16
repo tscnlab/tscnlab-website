@@ -1,4 +1,5 @@
 <article class="news-card">
+  {% if post.published == false %}<p class="draft-badge">Draft</p>{% endif %}
   {% if post.image %}
     <a href="{{ post.url | relative_url }}">
       <img

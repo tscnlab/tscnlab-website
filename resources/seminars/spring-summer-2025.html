@@ -1,0 +1,52 @@
+---
+layout: default
+title: Spring/summer 2025 seminar programme (archive)
+permalink: /resources/seminars/spring-summer-2025/
+page_css: /assets/css/resources.css
+---
+
+{% assign seminar = site.data.resources.seminar_2025 %}
+
+<main class="resource-page seminar-page" id="top">
+  <nav class="resource-breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ '/resources/' | relative_url }}">Resources</a><span aria-hidden="true">›</span>
+    <a href="{{ '/seminar/' | relative_url }}">Seminar series</a><span aria-hidden="true">›</span><span>Spring/summer 2025</span>
+  </nav>
+  <p class="archive-notice">This edition has ended. <a href="{{ '/seminar/' | relative_url }}">Explore recordings and other editions.</a></p>
+
+  <header class="resource-heading">
+    <p class="resource-eyebrow">Archived programme</p>
+    <h1>{{ seminar.title }}</h1>
+    <p class="resource-subtitle">{{ seminar.subtitle }}</p>
+  </header>
+
+  <section class="seminar-intro">
+    <div class="seminar-intro-copy">
+      <p>{{ seminar.description }}</p>
+    </div>
+
+
+  </section>
+
+  <section class="resource-section">
+    <h2>Speakers</h2>
+
+    <div class="speaker-list">
+      {% for speaker in seminar.speakers %}
+        <article class="speaker-row">
+          <div class="speaker-date">
+            {{ speaker.datetime }}
+          </div>
+
+          <div class="speaker-person">
+            <strong>{{ speaker.name }}</strong>
+            <span>{{ speaker.affiliation }}</span>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <p>Times are shown in Central European Summer Time (CEST), as in the original programme.</p>
+
+</main>

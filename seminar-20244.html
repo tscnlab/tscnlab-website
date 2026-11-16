@@ -1,13 +1,18 @@
 ---
 layout: default
-title: Current Topics in Sleep & Circadian Health
+title: Spring 2024 seminar programme (archive)
 permalink: /seminar-20244/
 page_css: /assets/css/resources.css
 ---
 
 {% assign seminar = site.data.resources.seminar_2024 %}
 
-<main class="resource-page seminar-archive-page">
+<main class="resource-page seminar-archive-page" id="top">
+  <nav class="resource-breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ '/resources/' | relative_url }}">Resources</a><span aria-hidden="true">›</span>
+    <a href="{{ '/seminar/' | relative_url }}">Seminar series</a><span aria-hidden="true">›</span><span>Spring 2024</span>
+  </nav>
+  <p class="archive-notice">This edition has ended. The poster below is the original programme. <a href="{{ '/seminar/' | relative_url }}">Explore recordings and other editions.</a></p>
 
   <div class="seminar-archive-grid">
 
@@ -15,7 +20,7 @@ page_css: /assets/css/resources.css
       {% if seminar.image %}
         <img
           src="{{ seminar.image | relative_url }}"
-          alt="{{ seminar.title }} — {{ seminar.subtitle }}"
+          alt="{{ seminar.title }}: {{ seminar.subtitle }}"
         >
       {% endif %}
     </div>
@@ -23,7 +28,7 @@ page_css: /assets/css/resources.css
     <div class="seminar-archive-content">
 
       <header class="resource-heading">
-        <p class="resource-eyebrow">Seminar series</p>
+        <p class="resource-eyebrow">Archived programme</p>
         <h1>{{ seminar.title }}</h1>
         <p class="resource-subtitle">{{ seminar.subtitle }}</p>
       </header>
@@ -32,16 +37,7 @@ page_css: /assets/css/resources.css
         {{ seminar.description }}
       </p>
 
-      {% if seminar.register_url %}
-        <a
-          class="resource-button"
-          href="{{ seminar.register_url }}"
-          target="_blank"
-          rel="noopener"
-        >
-          Register
-        </a>
-      {% endif %}
+      <a class="resource-button" href="{{ '/seminar/' | relative_url }}">Seminar recordings and archives →</a>
 
     </div>
 

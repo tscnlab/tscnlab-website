@@ -62,6 +62,15 @@
 
 /* ---------- LOGO ---------- */
 
+.software-project--resource {
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+  gap: clamp(35px, 5vw, 80px);
+}
+
+.software-project--resource .software-project-image img {
+  border: 1px solid #e3e3e3;
+}
+
 .software-project-logo {
   display: flex;
   justify-content: center;
@@ -186,6 +195,10 @@
     grid-column: 2;
     max-width: 500px;
   }
+
+  .software-project--resource {
+    grid-template-columns: minmax(0, 1fr) minmax(240px, 0.8fr);
+  }
 }
 
 
@@ -222,6 +235,10 @@
     grid-template-columns: 1fr;
     gap: 25px;
     padding: 50px 0;
+  }
+
+  .software-project--resource {
+    grid-template-columns: 1fr;
   }
 
   .software-project-logo {

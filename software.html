@@ -12,7 +12,7 @@ page_css: /assets/css/software.css
   <header class="software-header">
     <div>
       <h1>Research software</h1>
-      <p>We make our research software openly available.</p>
+      <p>Tools for measuring light, analysing exposure and reporting research.</p>
     </div>
 
     <a
@@ -26,8 +26,51 @@ page_css: /assets/css/software.css
   </header>
 
 
+  <section class="software-project software-project--resource" id="lightloggers">
+    <div class="software-project-copy">
+      <p class="software-label">Interactive evidence resource</p>
+      <h2>Wearable light logger inventory</h2>
+      <p>
+        Explore published studies of wearable light-logger performance.
+        Browse by device or study, filter the evidence for photopic illuminance,
+        melanopic EDI and angle dependence, and follow links to the original
+        papers. The inventory is a work in progress and welcomes suggestions
+        for missing validation studies.
+      </p>
+      <div class="software-links">
+        <a href="https://resources.tscnlab.org/lightloggers/" target="_blank" rel="noopener noreferrer">Explore the inventory ↗</a>
+        <a href="https://resources.tscnlab.org/lightloggers/evidence.html" target="_blank" rel="noopener noreferrer">About the evidence ↗</a>
+      </div>
+    </div>
+    <a class="software-project-image" href="https://resources.tscnlab.org/lightloggers/" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/images/software/lightloggers-preview.png' | relative_url }}" alt="Wearable light logger inventory, a directory of device-validation evidence" width="1200" height="630">
+    </a>
+  </section>
+
+  <section class="software-project software-project--resource" id="enlight">
+    <div class="software-project-copy">
+      <p class="software-label">Research reporting tool</p>
+      <h2>ENLIGHT Checklist Wizard</h2>
+      <p>
+        Complete the ENLIGHT reporting checklist for laboratory studies of the
+        non-visual effects of light in humans. The wizard guides you through
+        the checklist, lets you save and reopen a draft, and fills the official
+        checklist PDF with your answers. Guidance and the Explanation &amp;
+        Elaboration document are available alongside the form.
+      </p>
+      <div class="software-links">
+        <a href="https://resources.tscnlab.org/enlight/" target="_blank" rel="noopener noreferrer">Open the wizard ↗</a>
+        <a href="https://enlight-statement.org/" target="_blank" rel="noopener noreferrer">ENLIGHT guidelines ↗</a>
+        <a href="https://doi.org/10.1016/j.ebiom.2023.104889" target="_blank" rel="noopener noreferrer">Read the paper ↗</a>
+      </div>
+    </div>
+    <a class="software-project-image" href="https://resources.tscnlab.org/enlight/" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/images/software/enlight-preview.png' | relative_url }}" alt="ENLIGHT Checklist Wizard: complete the reporting checklist and download your PDF" width="1200" height="630" loading="lazy">
+    </a>
+  </section>
+
   <!-- LUOX -->
-  <section class="software-project">
+  <section class="software-project" id="luox">
 
     <div class="software-project-logo">
       <img
@@ -47,7 +90,7 @@ page_css: /assets/css/software.css
         and lighting-related quantities directly in the browser. The tool
         was inspired by the development of
         <a
-          href="https://doi.org/10.12688/wellcomeopenres.16391.2"
+          href="https://doi.org/10.3390/clockssleep1030024"
           target="_blank"
           rel="noopener noreferrer"
         >minimum reporting guidelines</a>
@@ -94,7 +137,7 @@ page_css: /assets/css/software.css
 
 
   <!-- LIGHTLOGR -->
-  <section class="software-project">
+  <section class="software-project" id="lightlogr">
 
     <div class="software-project-logo">
       <img
@@ -110,7 +153,7 @@ page_css: /assets/css/software.css
       <h2>LightLogR</h2>
 
       <p>
-        LightLogR is a R package that facilitates working with light logger
+        LightLogR is an R package that facilitates working with light logger
         data and is dedicated to
         <a
           href="https://www.go-fair.org/fair-principles/"
@@ -121,7 +164,7 @@ page_css: /assets/css/software.css
         devices and provides functions for validation, analysis, and
         visualization. It is part of the
         <a
-          href="https://melidos.github.io/"
+          href="https://www.melidos.eu/"
           target="_blank"
           rel="noopener noreferrer"
         >MeLiDos</a>
@@ -135,6 +178,8 @@ page_css: /assets/css/software.css
           target="_blank"
           rel="noopener noreferrer"
         >Visit LightLogR ↗</a>
+
+        <a href="https://tscnlab.github.io/LightLogR_webinar/" target="_blank" rel="noopener noreferrer">Webinar and course ↗</a>
 
         <a
           href="https://lists.lrz.de/mailman3/lists/lightlogr-users.lists.lrz.de/"

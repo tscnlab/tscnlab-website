@@ -13,6 +13,23 @@ bundle exec jekyll serve
 
 The site will be available at `http://127.0.0.1:4000/`.
 
+For a local review that includes unpublished news drafts, run:
+
+```bash
+bash scripts/preview.sh
+```
+
+This uses project-local gems in `vendor/bundle`. Install them with
+`bundle config set --local path vendor/bundle` followed by `bundle install`.
+Use a current Ruby version supported by the locked Bundler version; the macOS
+system Ruby is too old. Set `TSCN_RUBY_BIN` to a Ruby `bin` directory if needed.
+Set `TSCN_PREVIEW_PORT` to choose another port.
+
+News marked `published: false` appears in this preview with a draft label and
+is excluded from ordinary builds. Remove that setting only after editorial
+review. Website text, styles, fonts and the new resource images are local;
+external tools, maps, recordings and hosted podcast media require internet access.
+
 If Jekyll reports a missing web server dependency:
 
 ```bash
@@ -85,10 +102,9 @@ Edit `_data/podcast.yml` for the show description and platform links. The episod
 catalog in `_data/podcast_episodes.json` is generated from the Light O’Clock feed.
 Episode artwork and audio are served by the podcast host.
 
-Run the **Sync podcast** workflow from the repository’s Actions tab. It opens or
-updates a pull request when the catalog changes. Merging the PR deploys the site
-through the Pages workflow. Enable GitHub Actions to create pull requests in the
-repository settings. To sync Spotify links, set `SPOTIFY_CLIENT_ID` and
+The **Sync podcast** workflow runs daily and can also be started from the
+repository’s Actions tab. It commits catalog changes directly to `main` and
+triggers the Pages workflow. To sync Spotify links, set `SPOTIFY_CLIENT_ID` and
 `SPOTIFY_CLIENT_SECRET` as repository Actions secrets. If app ownership changes,
 replace those secrets with credentials from the successor’s Spotify Developer app.
 
@@ -105,6 +121,18 @@ _data/resources.json
 ```
 
 Related images are stored in `assets/images/resources/`.
+
+`resources/index.html` is the resources hub, and `seminar.html` links to
+recordings and programmes across semesters. Past programmes are explicitly
+archived, including `resources/seminars/spring-summer-2025.html` and the legacy
+`seminar-20244.html` URL. Add new editions to the archive without replacing the
+hub with a single semester's registration page. The LightLogR course link
+points to the full course rather than a dated webinar announcement.
+
+`software.html` includes the light-logger inventory and ENLIGHT wizard alongside
+LightLogR and luox. The two new preview images come from the linked resources'
+own social-preview assets. Roboto Condensed is served locally under the SIL
+Open Font License in `assets/fonts/roboto-condensed/OFL.txt`.
 
 ## Deployment
 

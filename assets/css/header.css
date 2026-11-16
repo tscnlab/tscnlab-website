@@ -45,7 +45,7 @@
 }
 
 
-@media (max-width: 1150px) {
+@media (max-width: 1450px) {
   .site-header-inner {
     align-items: flex-start;
     flex-direction: column;
@@ -165,6 +165,13 @@
 
 .nav-dropdown-wide {
   min-width: 330px;
+  left: auto;
+  right: 0;
+}
+
+.nav-dropdown-wide a {
+  white-space: normal;
+  line-height: 1.35;
 }
 
 /* Resources has longer labels than the other navigation dropdowns. */
@@ -286,6 +293,24 @@
 }
 /* Mobile dropdown state is controlled by nav.js */
 @media (max-width: 700px) {
+  .site-nav {
+    position: relative;
+  }
+
+  .nav-item-dropdown {
+    position: static;
+  }
+
+  .nav-dropdown,
+  .resources-dropdown,
+  .nav-dropdown-wide {
+    left: 0;
+    right: auto;
+    width: min(360px, 100%);
+    max-width: 100%;
+    min-width: 0;
+  }
+
   .nav-item-dropdown .nav-dropdown,
   .nav-item-dropdown:hover .nav-dropdown,
   .nav-item-dropdown:focus-within .nav-dropdown {

@@ -1,61 +1,65 @@
 ---
 layout: default
-title: Current Topics in Visual & Circadian Neuroscience
+title: Seminar series and archives
 permalink: /seminar/
 page_css: /assets/css/resources.css
 ---
 
-{% assign seminar = site.data.resources.seminar_2025 %}
-
-<main class="resource-page seminar-page">
-
+<main class="resource-page seminar-page" id="top">
+  <nav class="resource-breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ '/resources/' | relative_url }}">Resources</a>
+    <span aria-hidden="true">›</span><span>Seminar series</span>
+  </nav>
   <header class="resource-heading">
-    <p class="resource-eyebrow">Seminar series</p>
-    <h1>{{ seminar.title }}</h1>
-    <p class="resource-subtitle">{{ seminar.subtitle }}</p>
+    <p class="resource-eyebrow">Talks across semesters</p>
+    <h1>Seminar series</h1>
+    <p>Our seminars bring together researchers working on sleep, circadian health, light and vision. Explore recordings from successive editions of Current Topics in Sleep &amp; Circadian Health and Current Topics in Visual &amp; Circadian Neuroscience.</p>
   </header>
 
   <section class="seminar-intro">
     <div class="seminar-intro-copy">
-      <p>{{ seminar.description }}</p>
+      <h2>Watch the series</h2>
+      <p>Available recordings are collected on the unit's YouTube channel. Talks are shared with the speakers' permission, so not every session has a recording.</p>
     </div>
+    <div class="seminar-action">
+      <a class="resource-button" href="https://www.youtube.com/playlist?list=PLzoZGn0-37XqNkZXJ1B6FoFiDzxyDnEID" target="_blank" rel="noopener noreferrer">Watch seminar recordings ↗</a>
+    </div>
+  </section>
 
-    {% if seminar.register_url %}
-      <div class="seminar-action">
-        <a
-          class="resource-button"
-          href="{{ seminar.register_url }}"
-          target="_blank"
-          rel="noopener"
-        >
-          Register
-        </a>
-      </div>
-    {% endif %}
+  <section class="resource-section" aria-labelledby="programmes-heading">
+    <h2 id="programmes-heading">Past programmes</h2>
+    <p>These programmes document earlier editions. Their registration periods have ended.</p>
+    <div class="resource-grid resource-grid--two">
+      <article class="resource-card">
+        <p class="resource-eyebrow">Autumn 2025 / winter 2026</p>
+        <h3>Current Topics in Sleep &amp; Circadian Health</h3>
+        <p>October 2025 to January 2026.</p>
+        <a class="resource-text-link" href="https://www.sleepsociety.org.uk/event/current-topics-in-sleep-circadian-health-online-seminar-series-october-2025-to-january-2026/" target="_blank" rel="noopener noreferrer">Archived programme at the British Sleep Society ↗</a>
+      </article>
+      <article class="resource-card">
+        <p class="resource-eyebrow">Spring / summer 2025</p>
+        <h3>Current Topics in Visual &amp; Circadian Neuroscience</h3>
+        <p>April to July 2025.</p>
+        <a class="resource-text-link" href="{{ '/resources/seminars/spring-summer-2025/' | relative_url }}">View the programme →</a>
+      </article>
+      <article class="resource-card">
+        <p class="resource-eyebrow">Spring 2024</p>
+        <h3>Non-image-forming effects of light</h3>
+        <p>An edition of Current Topics in Sleep &amp; Circadian Health.</p>
+        <a class="resource-text-link" href="{{ '/seminar-20244/' | relative_url }}">View the programme →</a>
+      </article>
+      <article class="resource-card">
+        <p class="resource-eyebrow">Autumn 2023 / winter 2024</p>
+        <h3>Current Topics in Sleep &amp; Circadian Health</h3>
+        <p>October 2023 to February 2024.</p>
+        <a class="resource-text-link" href="{% post_url 2023-10-11-2023-seminar-series %}">View the original announcement →</a>
+      </article>
+    </div>
+    <p><a class="resource-text-link" href="{{ '/resources/recorded-talks/' | relative_url }}">More series and earlier recordings →</a></p>
   </section>
 
   <section class="resource-section">
-    <h2>Speakers</h2>
-
-    <div class="speaker-list">
-      {% for speaker in seminar.speakers %}
-        <article class="speaker-row">
-          <div class="speaker-date">
-            {{ speaker.datetime }}
-          </div>
-
-          <div class="speaker-person">
-            <strong>{{ speaker.name }}</strong>
-            <span>{{ speaker.affiliation }}</span>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
+    <h2>Hands-on training with LightLogR</h2>
+    <p>For practical work with wearable light exposure and visual experience data, explore the <a class="resource-text-link" href="https://tscnlab.github.io/LightLogR_webinar/" target="_blank" rel="noopener noreferrer">LightLogR webinar and course ↗</a>, with beginner and advanced tutorials and recordings.</p>
   </section>
-
-  <section class="timezone-box">
-    <h2>Time zone conversion</h2>
-    <p>{{ seminar.timezone }}</p>
-  </section>
-
 </main>

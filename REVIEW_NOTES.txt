@@ -1,0 +1,149 @@
+TSCN website update: review record
+Reviewed 16 November 2026
+
+LOCAL COPY AND PREVIEW
+
+Repository: https://github.com/tscnlab/tscnlab-website
+Starting revision: 582d583 (main, 11 November 2026).
+Reviewed and approved for commit and push on 16 November 2026.
+
+Start or restart the preview from this directory:
+  bash scripts/preview.sh
+
+Review pages:
+  http://127.0.0.1:4000/software/
+  http://127.0.0.1:4000/resources/
+  http://127.0.0.1:4000/seminar/
+  http://127.0.0.1:4000/news/2026/11/16/wearable-light-logger-inventory/
+  http://127.0.0.1:4000/news/2026/11/16/enlight-checklist-wizard/
+
+The two new articles were initially previewed with published: false. Following
+editorial approval, that setting was removed so the ordinary build includes
+both articles. Their date is the website publication date, not a claim about
+the original resource launch date. Future posts can use published: false for
+the same review workflow.
+
+The site text, styles, fonts and new resource illustrations are available
+locally. Linked tools, YouTube recordings, maps, and hosted podcast media
+still require internet access. The preview binds only to 127.0.0.1.
+
+CHANGES
+
+1. Added the wearable light logger inventory and ENLIGHT Checklist Wizard to
+   Software and the new Resources hub, with descriptions and local images
+   from the resources' own social-preview assets.
+2. Added a reviewed news article for each resource, with the corresponding Manuel
+   Spitschan LinkedIn announcement supplied by the user and verified by its
+   public title, author and description.
+3. Replaced the single-season Resources menu with a permanent hub, seminar
+   archive and complete LightLogR webinar/course. The seminar page links
+   recordings and programmes for 2023/24, spring 2024, spring/summer 2025,
+   and autumn 2025/winter 2026. Earlier recordings remain accessible through
+   the playlist library.
+4. Preserved the 2025 speaker programme on a separate archive page and the
+   legacy /seminar-20244/ URL. Removed expired registration buttons and an
+   ambiguous common time-zone conversion from the archive. Original speaker
+   dates and times are retained.
+5. Replaced the March 2024 student-project PDF and duplicated project list
+   with the maintained Join the unit pages. Vacancies, funding and enquiry
+   guidance now point to the corresponding pages there.
+6. Added historical context to the 2023 seminar and 2024 LightLogR news posts.
+   The old version number and survey/prize announcement are clearly dated.
+   News articles now display the year as part of their date.
+7. Replaced the preregistrations placeholder with contact and mission links.
+   Marked the completed NetIAS project as a 2022-2024 collaboration and
+   replaced its defunct domain with the official programme page.
+8. Corrected the luox minimum-reporting-guidelines DOI, MeLiDos project link,
+   TUM Seed Fund link, Josef Priller link, and TUM unit footer link.
+9. Served Roboto Condensed locally with its SIL Open Font License and fixed
+   desktop and mobile navigation overflow. Added a preview helper and
+   corrected README podcast-workflow documentation to match the workflow.
+
+SOURCE RECORD
+
+Resource descriptions and images:
+  https://resources.tscnlab.org/lightloggers/
+  https://resources.tscnlab.org/lightloggers/evidence.html
+  https://resources.tscnlab.org/enlight/
+  https://enlight-statement.org/
+  https://doi.org/10.1016/j.ebiom.2023.104889
+
+User-supplied LinkedIn links and resolved announcements:
+  https://lnkd.in/p/du9mGYKz
+  https://www.linkedin.com/posts/spitschan_wearable-light-logger-inventory-activity-7526053069395161088-AA0U
+  https://lnkd.in/p/d6R6Uv4a
+  https://www.linkedin.com/posts/spitschan_enlight-checklist-wizard-activity-7526945511996583936-1QqE
+
+Seminars and training:
+  Existing _data/resources.json and 2023 seminar news article
+  https://www.youtube.com/playlist?list=PLzoZGn0-37XqNkZXJ1B6FoFiDzxyDnEID
+  https://www.sleepsociety.org.uk/event/current-topics-in-sleep-circadian-health-online-seminar-series-october-2025-to-january-2026/
+  https://tscnlab.github.io/LightLogR_webinar/
+  https://tscnlab.github.io/LightLogR_webinar/recordings.html
+
+Recruitment and other corrections:
+  https://join.tscnlab.org/
+  https://join.tscnlab.org/jobs.html
+  https://join.tscnlab.org/student-projects.html
+  https://join.tscnlab.org/funding.html
+  https://join.tscnlab.org/apply.html
+  https://netias.science/programmes/constructive-advanced-thinking-cat
+  https://www.forte.tum.de/en/forte/research-support/seed-fund/
+  https://www.professoren.tum.de/en/priller-josef
+  https://www.hs.mh.tum.de/en/chronobiology/home/
+  https://www.melidos.eu/
+  https://doi.org/10.3390/clockssleep1030024
+
+CHECKS COMPLETED
+
+Ruby 3.4.1, Bundler 4.0.18, Jekyll 4.4.1; existing Gemfile.lock unchanged.
+Dependencies were installed under vendor/, outside tracked source files.
+
+- Jekyll build with unpublished posts: passed.
+- Ordinary Jekyll build to /tmp/tscn-production-review: passed.
+- Initial draft workflow: both drafts present in preview and absent from the
+  ordinary build, including list and previous/next links: passed. After
+  editorial approval, both articles are included in the ordinary build.
+- Local href/src target scan across 118 generated HTML pages: no missing
+  local pages or assets. CSS font files were also checked.
+- Live HTTP requests to both news pages: 200, with the correct LinkedIn links.
+- Desktop and narrow-screen browser checks: resource cards, news drafts,
+  images and mobile Resources dropdown render correctly.
+- External-link check of current main pages and new drafts: 157 distinct
+  URLs checked. Broken links identified above were corrected. The British
+  Sleep Society page is readable through search but blocks automated direct
+  requests; the corrected Clock & Sleep DOI resolves to a publisher page
+  that also blocks automated requests. These are not treated as dead links.
+- git diff --check: passed.
+- Internal scripts, dependencies and this note are excluded from the site.
+
+REVIEW DECISIONS
+
+The following decisions were approved on 16 November 2026.
+
+- The Team page still lists the four summer interns announced in July 2025:
+  Erwin Obias, Bruno Bustos, Mithish Ravisankar Geetha and Tre Ridgway-Davis.
+  The user accepted the current listing for now. Team membership and roles
+  remain unchanged.
+- The homepage uses the 2024 group photograph. It remains useful, but a
+  newer approved photograph would make the page more current. The user
+  accepted the existing photograph for now.
+- The expired MLST autumn 2026 call is marked closed on the homepage and PhD
+  programme page in the separate tscnlab/website-join repository. The original
+  15 November 2026, 23:59 CET deadline was rechecked against TUM's official
+  application page on 16 November. No future round was advertised as open.
+- Individual collection URLs are generated for team members, but their
+  source files mostly have no biography and the member layout is absent.
+  The Team overview uses cards rather than these URLs. The unused
+  _members/manuel-spitschan.md also contains template text. This should be
+  resolved before promoting individual profile URLs. The user accepted this
+  content gap for now; it remains unchanged.
+- No public preregistration index was found in the repository. The page now
+  provides a contact route; study-specific registration links can be added
+  once the lab provides an authoritative list. The user accepted this content
+  gap for now; no speculative index was added.
+
+Historical news, publication claims, member roles and ongoing collaborations
+were preserved unless a specific correction could be supported. This review
+does not certify every historical external link or every person's current
+affiliation.
